@@ -18,12 +18,23 @@ body{
 #all{
 	position:relative;
 	width:60%;
-	height: 70vh;
 	left:0;
 	top: 15%;
-	background-color: #333333;
+	background-image: url("https://erovvheel.com/wp-content/uploads/morawetz_isabella_14_Isolation_EroVVheel.jpg");
+	background-size: cover;
+	background-position: top left;
 	box-shadow: 7px 7px 8px rgba(17, 17, 17, 0.5);
 	border: 1px solid #111;
+	margin: 0px auto;
+}
+
+#info {
+	position: relative;
+	width: 35%;
+	top:0%;
+	right:0;
+	opacity: 1;
+	padding: 15% 0% 0%;
 	margin: 0px auto;
 }
 
@@ -33,188 +44,24 @@ body{
 	height: 100%;
 	top: 0px;
 	left: 0px;
-	background-image: url("https://erovvheel.com/wp-content/uploads/morawetz_isabella_14_Isolation_EroVVheel.jpg");
-	background-size: cover;
-	background-position: top left;
-	opacity: 0.3;
-	z-index: 99;
-}
-
-header {
-	position:relative;
-	top:0%;
-	width: 100%;
-	height:10%;
-	background-color: #000;
-	margin: 0px auto 0px;
-	padding: 2px 0px 8px;
-	z-index: 999;
-}
-
-	header img {
-		position: relative;
-		float: right;
-		border: 1px solid #111;
-		margin-right: 10px;
-		margin-top:2px;
-		padding: 5px 12px;
-		cursor: help;
-	}
-
-	header img:hover {
-		cursor: help;
-		background-color: rgba(51, 51, 51, 0.2);
-		border: 1px solid #333;
-	}
-
-
-
-#main {
-	position: relative;
-	width: 100%;
-height: 88%;
-	left:0%;
-  top: 0%;
-	text-align: center;
-	background-color: rgba(10, 10, 10, 1);
-	background-image: url("/site/suddenly/assets/img/concrete.png");
-	padding: 0% 0px;
-}
-
-#proceed {
-	position: relative;
-	float: right;
-	width: 15%;
-	margin: 30px 50px 0px 0px;
-	padding: 20px;
-	z-index: 999;
-}
-
-#proceed a {
-				font-family: arial;
-				font-size: 7pt;
-				font-weight: bold;
-				letter-spacing: 3px;
-				line-height: 20px;
-		text-decoration:none;
-		text-transform:uppercase;
-		text-align: left;
-		color:#3e3e3e;
-	-webkit-transition: all 1s ease;
-	-moz-transition: all .3s ease;
-	-o-transition: all .3s ease;
-	-ms-transition: all .3s ease;
-	transition: all 1s ease;
-		padding: 0px 0px;
-		margin: 0px auto 30px;
-		cursor: help;
-	}
-
-	#proceed a:hover{
-		font-size:7pt;
-		font-weight: 100;
-		letter-spacing: 4px;
-		color: #f7f7f7;
-		-webkit-transition: all 1s ease;
-		-moz-transition: all .3s ease;
-		-o-transition: all .3s ease;
-		-ms-transition: all .3s ease;
-		transition: all 1s ease;
-	}
-
-	#proceed a:after {
-		float: right;
-		content: url("/site/suddenly/assets/img/arw.png");
-		padding: 0px 0px 0px;
-		margin: 0px 0px 0px 0px;
-		opacity: 0.3;
-		-webkit-transition: all 1s ease;
-		-moz-transition: all 1s ease;
-		-o-transition: all 1s ease;
-		-ms-transition: all 1s ease;
-		transition: all 1s ease;
-	}
-
-	#proceed a:hover:after {
-		opacity: 1;
-		-webkit-transition: all 1s ease;
-		-moz-transition: all .3s ease;
-		-o-transition: all .3s ease;
-		-ms-transition: all .3s ease;
-		transition: all 1s ease;
-	}
-
-	img#logo {
-			opacity: 1;
-		}
-
-footer {
-	position: absolute;
-	bottom: 0px;
-	width: 100%;
-	padding: 0px 0px;
-	background-color: #000;
-	z-index: 999;
-}
-
-hr {
-	width: 20%;
-	padding: 20px;
-	margin: 0px;
-	border: 0px;
-	background-color: #111;
-	float: left;
-}
-
-#rt{
-	position:absolute;
-	bottom: 0%;
-	right: 0%;
-	width: 100%;
-	height: 25%;
-	background-color: rgba(247, 247, 247, 1);
-	background-image: url("/site/suddenly/assets/img/concrete.png");
-		border-top: 1px solid #333;
-	padding: 10% 0%;
-	 margin: 0% auto 0%;
-	 text-align: center;
-}
-
-h1 {
-		font-family: 'Montserrat', sans-serif;
-	font-size: 9pt;
-	letter-spacing: 7px;
-	font-weight: 700;
-	text-decoration:none;
-	text-transform:uppercase;
-	text-align: center;
-	color:#333;
-	margin: 15px auto 0px;
+	background-color: rgba(229, 227, 215, 0.6);
+	margin: 0px auto;
+	padding: 0% 0%;
 }
 
 
-h2 {
-	font-family: 'Montserrat', sans-serif;
-	font-size: 4pt;
-	letter-spacing: 2px;
-	font-weight: bold;
-	text-decoration:none;
-	text-transform:uppercase;
-	text-align: center;
-	color:#777;
-	margin: 7px auto;
-}
 
 	#contact {
 		position: absolute;
 		width: 100%;
 		bottom: 0%;
-		text-align: right;
+		text-align: center;
 		padding: 0px 0%;
 		margin: 0px auto;
-		background-color: #111;
-			border-top: 1px solid #333;
-				border-bottom: 1px solid #000;
+		background-color: rgba(17, 17, 17, 0.8);
+			border-top: 1px solid #f7f7f7;
+				border-bottom: 1px solid #111;
+				z-index: 999;
 	}
 
 		#contact a:link, #top a:visited, #top a:active{
@@ -252,9 +99,68 @@ h2 {
 		}
 
 
+h6 {
+	 display: inline-block;
+	 left:0px;
+ 	width: 100%;
+ 	font-family: 'Montserrat', sans-serif;
+ 	font-size: 9pt;
+ 	font-weight: 600;
+ 	letter-spacing: 1px;
+ 	text-align: center;
+ 	color: #111;
+ 	background-color: rgba(229, 227, 215, 0.2);
+ 	border: 1px solid #555;
+ 		padding: 60px 0px 50px;
+ 		margin: 0px auto;
+		cursor:help;
+}
 
-/* MEDIA QUERIES */
+h6:before {
+	display: block;
+	content: url("/site/suddenly/assets/img/file.png");
+	padding: 0px 0px 10px;
+	opacity: 0.8;
+}
 
-	@media only screen and (min-height: 875px) {
-		#all { 	top: 20%; height: 50vh; }
+#proceed {
+	position: relative;
+	text-align: center;
+	margin: 10px auto;
+	padding: 10% 0% 30%;
+	z-index: 999;
+}
+
+#proceed a {
+	width: 150px;
+	font-family: arial;
+	font-size: 7pt;
+	font-weight: 700;
+	letter-spacing: 3px;
+	line-height: 20px;
+	text-decoration:none;
+	text-transform:uppercase;
+	text-align: left;
+	color: #000;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	transition: all 1s ease;
+		padding: 10px 30px;
+		margin: 0px auto 0px;
+		cursor: help;
+	}
+
+	#proceed a:hover{
+		font-size:7pt;
+		font-weight: 100;
+		color: #f7f7f7;
+		letter-spacing: 4px;
+		background-color: #111;
+		-webkit-transition: all 1s ease;
+		-moz-transition: all .3s ease;
+		-o-transition: all .3s ease;
+		-ms-transition: all .3s ease;
+		transition: all 1s ease;
 	}

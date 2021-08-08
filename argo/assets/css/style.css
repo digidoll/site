@@ -15,7 +15,7 @@ p {
 	text-align: justify;
 	color: #555;
 	font-size: 8pt;
-	line-height: 12pt;
+	line-height: 25px;
 	letter-spacing: 1px;
 	transform: translate(0, 0);
 	margin: 0px 0px 5px;
@@ -30,16 +30,15 @@ p {
 blockquote {
 	position: relative;
 	width: 80%;
-	font-size: 11pt;
+	font-size: 13pt;
 	line-height: 25px;
 	text-align: justify;
-	color: #555;
+	color: #333;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 400;
 	text-transform: none;
 	border-top: 1px solid #ddd;
 	border-bottom: 1px solid #ddd;
-
 	margin: 50px auto;
 	padding: 40px 50px 40px 20px;
 }
@@ -94,7 +93,7 @@ a:hover {
 h1 {
 	text-align: right;
 	font-family: 'Montserrat', sans-serif;
-	font-size: 13pt;
+	font-size: 22pt;
 	font-weight: 600;
 	line-height: 18px;
 	letter-spacing: 2px;
@@ -112,7 +111,7 @@ h1 span {
 	word-spacing: 0px;
 	color: #555;
 	padding: 0px 0px;
-	margin: 0px 0px 20px 1px;
+	margin: 5px 0px 20px 1px;
 }
 
 h1:before {

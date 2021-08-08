@@ -45,7 +45,7 @@ a:link, a:visited, a:active {
 	text-align: center;
 	text-decoration:none;
 	text-transform: uppercase;
-	color:#333;
+	color:#111;
 	background-color:transparent;
 	padding:3px 2px 1px;
 	-moz-transition: all 0.3s ease;
@@ -54,17 +54,19 @@ a:link, a:visited, a:active {
 }
 
 	a:hover {
-		color:#f7f7f7;
-		background-color:#777;
+		color:#555;
+		background-color: transparent;
 		cursor:help;
 	}
 
 
 
+#myBtnContainer {
+	margin: 0px 0px 50px;
+}
 
 
-
-h6 {
+#info h6 {
 	display: block;
 	width: 50%;
 	font-family: 'Montserrat', sans-serif;
@@ -79,7 +81,7 @@ h6 {
 		margin: 0px auto;
 }
 
-h6:before {
+#info h6:before {
 	display: block;
 	content: url("/site/suddenly/assets/img/file.png");
 	padding: 0px 0px 20px;
@@ -354,14 +356,14 @@ img#card {
   padding: 0px 0px 0px 0px;
 }
 
-.box {
+.srv {
 	width: 100%;
 	height: 50%;
 	background-color: #f7f7f7;
 	border-bottom: 1px solid #a6a6a6;
 }
 
-.box:last-of-type {
+.srv:last-of-type {
 	border-bottom: none;
 }
 
@@ -506,98 +508,23 @@ h1#sv {
 
 /* PRETTYPHOTO LIGHTBOX */
 
-#New {
-  position: relative;
-  width: 100%;
-  left: 0;
-  margin: 50px auto;
-  text-align: center;
-  overflow: hidden;
+.box{
+	margin:0 auto;
+	width:160px;
+	height:110px;
+	text-align:center;
+	margin: 0px 20px;
 }
 
-  #New.Main { top: 0px; }
-
-  #New #Display {
-    display: inline-block;
-    position: relative;
-    width: 160px;
-    height: 110px;
-    background-color: #fff!important;
-    border: 1px solid #e7e7e7;
-    z-index: 1;
-    margin: 10px;
-    padding: 5px;
-    box-shadow: 0px 1px 3px 1px rgba(0,0,0,0.4);
- }
-
-#Display .Inner {
-  position: relative;
-  width: 100%;
-  height: calc(100% - 35px);
-  top: 0;
-  left: 0;
-  color: #fff;
-  font: bold 11px Calibri;
-  text-transform: Uppercase;
-  text-align: center;
-  letter-spacing: 1.5px;
-  margin: 0px auto;
-  padding: 35px 0px 0px;
-  opacity: 0;
-  background-color: rgba(32, 32, 32, 0.8);
-  cursor: default;
-  -webkit-transition:all 0.5s ease-in-out;
-     -moz-transition:all 0.5s ease-in-out;
-      -ms-transition:all 0.5s ease-in-out;
-       -o-transition:all 0.5s ease-in-out;
-          transition:all 0.5s ease-in-out; }
-
-#Display .Inner:hover {
-  opacity: 1;
-  -webkit-transition:all 0.5s ease-in-out;
-     -moz-transition:all 0.5s ease-in-out;
-      -ms-transition:all 0.5s ease-in-out;
-       -o-transition:all 0.5s ease-in-out;
-          transition:all 0.5s ease-in-out; }
-
-#Display .Inner H1 {
-  position: relative;
-  font: bold 20px Calibri;
-  text-align: center;
-  line-height: 20px;
-  padding: 50px 0 0 0;
-  margin: 0px auto 0px;
-  cursor: default;
+.image{
+	margin:0 auto;
+	width:160px;
+	height:110px;
+	text-align:center;
+	box-shadow:0 0 0 5px rgba(255,255,255,.2),0 0 0 7px rgba(129,136,208,.2);
+	border:1px solid rgba(255,255,255,.2);
+	margin: 20px auto;
 }
-
-  #Display .Inner H1:before{ display: none; }
-
-  #Display .Inner H1.Pre {
-    font-family:'BenchNine', sans-serif;
-    font-weight:100;
-    font-size:16pt;
-    text-transform:uppercase;
-    letter-spacing:2px;
-    color:#fff;
-		background-color: transparent;
-		border:none;
-    text-align:center;
-    padding: 0px 0 0 0!important;
-    margin:0 auto;
-  }
-
-  #Display .Inner span {
-    display: block;
-    font-family:'BenchNine', sans-serif;
-    font-weight:100;
-    font-size:9pt;
-    text-transform:uppercase;
-    letter-spacing:2px;
-    color:#fff;
-    text-align:center;
-    padding: 5px 0 0 0!important;
-    margin:0 auto;
-  }
 
   a.Zoom:link, a.Zoom:active, a.Zoom:visited {
     position: relative;
@@ -706,6 +633,7 @@ section#credit {
 		font-size: 26pt;
 		letter-spacing:1px;
 		text-transform: uppercase;
+		border-bottom: 1px solid #111;
 		padding: 0px 0px;
 		margin: 0px auto;
 	}
@@ -740,7 +668,7 @@ textarea {
 	text-align: center;
 	color: #ededed;
 	border: 1px solid #1d1d1d;
-	background-image: url("https://via.placeholder.com/380x200/111111/222222");
+	background-image: url("https://via.placeholder.com/380x200/000000/222222");
 	background-position: top left;
 	background-repeat: no-repeat;
 	background-size: cover;

@@ -13,7 +13,6 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/menu.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/slider.css">
 
-
 	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.12.0/css/all.css">
 
 	<script src="/site/purity/assets/js/ism-2.2.min.js"></script>
@@ -34,32 +33,26 @@
 <body>
 <div class="all">
 
+
 	<div id="nav">
-		<a href="index.php">home</a>
+		<div class="user">digidoll</div>
+		<a href="index.php">index</a>
 		<a href="about.php">biography</a>
 		<a href="services.php">services</a>
 		<a href="design.php">design</a>
-		<a href="faq.php">faq</a>
-		<a href="#">affiliates</a>
-		<a href="#">contact</a>
 	</div>
+
+
 
 	<header>
 		<div id="banner">
-		<h5> digi nicole
+			<img src="/site/purity/assets/img/icon.png">
+		<h5>
 		<span> design & development <span> </h5>
 		</div>
 	</header>
 
-	<div id="nav2">
-		<a href="index.php">home</a>
-		<a href="about.php">biography</a>
-		<a href="services.php">services</a>
-		<a href="design.php">design</a>
-		<a href="faq.php">faq</a>
-		<a href="#">affiliates</a>
-		<a href="#">contact</a>
-	</div>
+
 
 	<section id="main-content">
 	<div id="guts">

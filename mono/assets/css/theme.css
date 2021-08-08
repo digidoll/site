@@ -20,7 +20,7 @@ body {
 
 #back-to-top {
 	position:fixed;
-	right:10px;
+	right:60px;
 	bottom:10px;
 	color:#999;
 	z-index:999;
@@ -59,7 +59,7 @@ header {
   position:relative;
 	width:100%;
 	background-color:#0a0a0a;
-	background-image: url("/preview/site/mono/assets/img/concrete.png");
+	background-image: url("/site/mono/assets/img/concrete.png");
 	left:0;
 	top:0;
 	padding: 15% 0%;
@@ -170,9 +170,9 @@ z-index: 999;
 
 #sv{width:100%;height:auto;margin:0 auto;}
 
-#prem{width:100%;position:relative;left:0;top:0px;padding:50px 0px 0px;background-color: #f7f7f7;}
+#affiliates{width:100%;position:relative;left:0;top:0px;padding:50px 0px 0px;background-color: #1a1a1a;}
 
-#pr{width:100%;height:auto;margin:0 auto;}
+#af{width:100%;height:auto;margin:0 auto;}
 
 .slider{position:relative;;width:100%;height:300px;left:0;top:0px; padding: 0px;background-color:#111; margin: 0px auto;}
 
@@ -182,7 +182,7 @@ z-index: 999;
 
 #fq{width:100%;height:auto;margin:0 auto;}
 
-#gallery{width:100%;position:relative;left:0;top:0px;padding-top:50px;background-color:#1a1a1a;}
+#gallery{width:100%;position:relative;left:0;top:0px;padding-top:50px;background-color:#f7f7f7;}
 
 #ga{width:100%;height:auto;margin:0 auto;}
 
@@ -198,6 +198,10 @@ z-index: 999;
 
 #fo{width:100%;height:220px;margin:0 auto;}
 
+footer {
+background-color: #000!important;
+}
+
 #outlinks{width:100%;position:absolute;left:0;top:4820px;text-align:center;}
 
 #outlinks a:link,
@@ -208,6 +212,11 @@ z-index: 999;
 
 #outlinks a:hover,
 #outlinks span:hover { color:#e0393d;}
+
+::-webkit-scrollbar {		width:7px; }
+::-webkit-scrollbar-track {		background-color:#000; }
+::-webkit-scrollbar-thumb {		background-color:#ededed; }
+::-webkit-scrollbar:horizontal {		height:0; }
 
 
 @media only screen and (min-width: 801px) {

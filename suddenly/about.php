@@ -27,8 +27,6 @@
 
 	<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ac feugiat velit, varius malesuada dui. Cras dictum eros sit amet consequat vulputate. Quisque purus turpis, hendrerit non pharetra vitae, tempor tempor orci. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce placerat, turpis non aliquet sollicitudin, risus mi tristique felis, id scelerisque turpis lorem quis magna. Mauris convallis sapien diam, placerat tempor tortor vehicula at. </p>
 
-<blockquote>blockquote</blockquote>
-
 <?php
 require_once( 'assets/include/footer.php' );
 ?>

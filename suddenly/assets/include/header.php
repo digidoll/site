@@ -13,6 +13,8 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/menu.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/slider.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/faq.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/test.css">
+
 
 	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.12.0/css/all.css">
 
@@ -22,6 +24,28 @@
 	<script type='text/javascript' src='/site/suddenly/assets/js/music.js'></script>
 	<script src="https://www.youtube.com/player_api"></script>
 
+	<link rel="stylesheet" type="text/css" href="/site/suddenly/assets/css/jquery.fancybox.css" media="screen" />
+	<script type="text/javascript" src="/site/suddenly/assets/js/jquery-1.10.1.min.js"></script>
+	<script type="text/javascript" src="/site/suddenly/assets/js/jquery.fancybox.js"></script>
+	<script type="text/javascript" src="/site/suddenly/assets/js/main.js"></script>
+
+<style type="text/css">
+
+</style>
+
+<script>
+	$(function(){
+		$(window).scroll(function() {
+			if ($(this).scrollTop() > 100) {
+			$('.nav').addClass('nav-fixed');
+		}
+
+		else {
+			$('.nav').removeClass('nav-fixed');
+			}
+			});
+		});
+</script>
 </head>
 
 <body>
@@ -51,24 +75,25 @@
 			<a href="services.php">services</a>
 			<a href="design.php">design</a>
 			<a href="faq.php">faq</a>
-			<a href="extra.php"> link </a>
-			<a href="extra.php"> link </a>
+		 	<a href="affiliates.php">affiliates</a>
+			<a href="contact.php">contact</a>
 		</ul>
 		</div>
 	</menu>
 </header>
 
-	<div id="nav">
+	<div class="nav">
+
 		<a href="index.php">home</a>
 	 	<a href="about.php">biography</a>
 		<a href="services.php">services</a>
 		<a href="design.php">design</a>
 		<a href="faq.php">faq</a>
-	 	<a href="#">affiliates</a>
-		<a href="#">contact</a>
+	 	<a href="affiliates.php">affiliates</a>
+		<a href="contact.php">contact</a>
 	</div>
 
-	<div id="nav2">
+<!--	<div id="nav2">
 		<a href="index.php">home</a>
 		<a href="about.php">biography</a>
 		<a href="services.php">services</a>
@@ -76,7 +101,7 @@
 		<a href="faq.php">faq</a>
 		<a href="#">affiliates</a>
 		<a href="#">contact</a>
-	</div>
+	</div> -->
 
 <section id="main-content">
 <div id="guts">

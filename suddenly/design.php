@@ -15,116 +15,96 @@
   <button class="btn" onclick="filterSelection('-2013')"> 2010 - 2013</button>
 </div>
 
-<div id="New">
-<!-- 2019-present -->
-<div class="filterDiv present">
-  <div id="Display" style="background: url('https://via.placeholder.com/160x110/111111/ededed') center no-repeat;"> <div class="Inner"> <a class="Zoom Cus" href="https://via.placeholder.com/900x500/111111/ededed" rel="prettyPhoto[gallery1]"> <h1 class="Pre">  VIXX06 </h1> <span style="display: block;">$4.50 USD / 10,000 Cr.</span>
-    <a href="https://via.placeholder.com/900x500/ededed/000000" rel="prettyPhoto[gallery1]">
-    <a href="https://via.placeholder.com/900x500/333333/f7f7f7" rel="prettyPhoto[gallery1]"></a> </div> </div>
-</div>
 
-<div class="filterDiv present">
-  <div id="Display" style="background: url('https://via.placeholder.com/160x110/111111/ededed') center no-repeat;"> <div class="Inner"> <a class="Zoom Cus" href="https://via.placeholder.com/900x500/111111/ededed" rel="prettyPhoto[gallery2]"> <h1 class="Pre">  VIXX06 </h1> <span style="display: block;">$4.50 USD / 10,000 Cr.</span>
-  <a href="https://via.placeholder.com/900x500/ededed/000000" rel="prettyPhoto[gallery2]"> <a href="https://via.placeholder.com/900x500/333333/f7f7f7" rel="prettyPhoto[gallery2]"></a> </div> </div>
-</div>
+<table align="center">
+   <tr>
+     <td>
+       <div class="filterDiv -2013">
+       <div class="box">
+        <div class="image">
+          <a class="fancybox" href="/site/suddenly/assets/img/preview/full/trying.png" data-fancybox-group="gallery1" >
+          <img src="/site/suddenly/assets/img/preview/thumb/trying.png" alt="1"></a>
+        </div>
+      </div>
+    </td>
 
-<div class="filterDiv present">
-  <div id="Display" style="background: url('https://via.placeholder.com/160x110/111111/ededed') center no-repeat;"> <div class="Inner"> <a class="Zoom Cus" href="https://via.placeholder.com/900x500/111111/ededed" rel="prettyPhoto[gallery3]"> <h1 class="Pre">  VIXX06 </h1> <span style="display: block;">$4.50 USD / 10,000 Cr.</span>
-    <a href="https://via.placeholder.com/900x500/ededed/000000" rel="prettyPhoto[gallery3]"> <a href="https://via.placeholder.com/900x500/333333/f7f7f7" rel="prettyPhoto[gallery3]"></a> </div> </div>
-</div>
+    <td>
+      <div class="filterDiv present">
+      <div class="box">
+       <div class="image">
+         <a class="fancybox" href="/site/suddenly/assets/img/preview/full/mono.png" data-fancybox-group="gallery2" >
+         <img src="/site/suddenly/assets/img/preview/thumb/mono.png" alt="2"></a>
+       </div>
+     </div>
+   </td>
 
-<div class="filterDiv present">
-  <div id="Display" style="background: url('https://via.placeholder.com/160x110/111111/ededed') center no-repeat;"> <div class="Inner"> <a class="Zoom Cus" href="https://via.placeholder.com/900x500/111111/ededed" rel="prettyPhoto[gallery4]"> <h1 class="Pre">  VIXX06 </h1> <span style="display: block;">$4.50 USD / 10,000 Cr.</span>
-    <a href="https://via.placeholder.com/900x500/ededed/000000" rel="prettyPhoto[gallery4]"> <a href="https://via.placeholder.com/900x500/333333/f7f7f7" rel="prettyPhoto[gallery4]"></a> </div> </div>
-</div>
+   <td>
+     <div class="filterDiv present">
+     <div class="box">
+      <div class="image">
+        <a class="fancybox" href="/site/suddenly/assets/img/preview/full/naive.png" data-fancybox-group="gallery2" >
+        <img src="/site/suddenly/assets/img/preview/thumb/naive.png" alt="2"></a>
+      </div>
+    </div>
+  </td>
 
-<div class="filterDiv present">
-  <div id="Display" style="background: url('https://via.placeholder.com/160x110/111111/ededed') center no-repeat;"> <div class="Inner"> <a class="Zoom Cus" href="https://via.placeholder.com/900x500/111111/ededed" rel="prettyPhoto[gallery5]"> <h1 class="Pre">  VIXX06 </h1> <span style="display: block;">$4.50 USD / 10,000 Cr.</span>
-    <a href="https://via.placeholder.com/900x500/ededed/000000" rel="prettyPhoto[gallery5]"> <a href="https://via.placeholder.com/900x500/333333/f7f7f7" rel="prettyPhoto[gallery5]"></a> </div> </div>
-</div>
+  <td>
+    <div class="filterDiv -2013">
+    <div class="box">
+     <div class="image">
+       <a class="fancybox" href="/site/suddenly/assets/img/preview/full/swallow.png" data-fancybox-group="gallery2" >
+       <img src="/site/suddenly/assets/img/preview/thumb/swallow.png" alt="2"></a>
+     </div>
+   </div>
+ </td>
 
-<div class="filterDiv present">
-  <div id="Display" style="background: url('https://via.placeholder.com/160x110/111111/ededed') center no-repeat;"> <div class="Inner"> <a class="Zoom Cus" href="https://via.placeholder.com/900x500/111111/ededed" rel="prettyPhoto[gallery6]"> <h1 class="Pre">  VIXX06 </h1> <span style="display: block;">$4.50 USD / 10,000 Cr.</span>
-    <a href="https://via.placeholder.com/900x500/ededed/000000" rel="prettyPhoto[gallery6]"> <a href="https://via.placeholder.com/900x500/333333/f7f7f7" rel="prettyPhoto[gallery6]"></a> </div> </div>
-</div>
+  </tr>
+</table>
 
-<div class="filterDiv present">
-  <div id="Display" style="background: url('https://via.placeholder.com/160x110/111111/ededed') center no-repeat;"> <div class="Inner"> <a class="Zoom Cus" href="https://via.placeholder.com/900x500/111111/ededed" rel="prettyPhoto[gallery7]"> <h1 class="Pre">  VIXX06 </h1> <span style="display: block;">$4.50 USD / 10,000 Cr.</span>
-    <a href="https://via.placeholder.com/900x500/ededed/000000" rel="prettyPhoto[gallery7]"> <a href="https://via.placeholder.com/900x500/333333/f7f7f7" rel="prettyPhoto[gallery7]"></a> </div> </div>
-</div>
+<table align="center">
+   <tr>
+     <td>
+       <div class="filterDiv -2018">
+       <div class="box">
+        <div class="image">
+          <a class="fancybox" href="https://via.placeholder.com/900x500/111111/ededed" data-fancybox-group="gallery5" >
+          <img src="https://via.placeholder.com/160x110/111111/ededed" alt="5"></a>
+        </div>
+      </div>
+    </td>
 
-<div class="filterDiv present">
-  <div id="Display" style="background: url('https://via.placeholder.com/160x110/111111/ededed') center no-repeat;"> <div class="Inner"> <a class="Zoom Cus" href="https://via.placeholder.com/900x500/111111/ededed" rel="prettyPhoto[gallery8]"> <h1 class="Pre">  VIXX06 </h1> <span style="display: block;">$4.50 USD / 10,000 Cr.</span>
-    <a href="https://via.placeholder.com/900x500/ededed/000000" rel="prettyPhoto[gallery8]"> <a href="https://via.placeholder.com/900x500/333333/f7f7f7" rel="prettyPhoto[gallery8]"></a> </div> </div>
-</div>
+    <td>
+      <div class="filterDiv present">
+      <div class="box">
+       <div class="image">
+         <a class="fancybox" href="/site/suddenly/assets/img/preview/full/mono.png" data-fancybox-group="gallery6" >
+         <img src="/site/suddenly/assets/img/preview/thumb/mono.png" alt="6"></a>
+       </div>
+     </div>
+   </td>
 
+   <td>
+     <div class="filterDiv -2018">
+     <div class="box">
+      <div class="image">
+        <a class="fancybox" href="https://via.placeholder.com/900x500/111111/ededed" data-fancybox-group="gallery7" >
+        <img src="https://via.placeholder.com/160x110/111111/ededed" alt="7"></a>
+      </div>
+    </div>
+  </td>
 
+  <td>
+    <div class="filterDiv -2018">
+    <div class="box">
+     <div class="image">
+       <a class="fancybox" href="https://via.placeholder.com/900x500/111111/ededed" data-fancybox-group="gallery8" >
+       <img src="https://via.placeholder.com/160x110/111111/ededed" alt="8"></a>
+     </div>
+   </div>
+ </td>
 
-<!-- 2017-2018 -->
-<div class="filterDiv -2018">
-  <div id="Display" style="background: url('https://via.placeholder.com/160x110/111111/ededed') center no-repeat;"> <div class="Inner"> <a class="Zoom Cus" href="https://via.placeholder.com/900x500/111111/ededed" rel="prettyPhoto[gallery9]"> <h1 class="Pre">  VIXX06 </h1> <span style="display: block;">$4.50 USD / 10,000 Cr.</span>
-    <a href="https://via.placeholder.com/900x500/ededed/000000" rel="prettyPhoto[gallery9]"> <a href="https://via.placeholder.com/900x500/333333/f7f7f7" rel="prettyPhoto[gallery9]"></a> </div> </div>
-</div>
-
-<div class="filterDiv -2018">
-  <div id="Display" style="background: url('https://via.placeholder.com/160x110/111111/ededed') center no-repeat;"> <div class="Inner"> <a class="Zoom Cus" href="https://via.placeholder.com/900x500/111111/ededed" rel="prettyPhoto[gallery10]"> <h1 class="Pre">  VIXX06 </h1> <span style="display: block;">$4.50 USD / 10,000 Cr.</span>
-    <a href="https://via.placeholder.com/900x500/ededed/000000" rel="prettyPhoto[gallery10]"> <a href="https://via.placeholder.com/900x500/333333/f7f7f7" rel="prettyPhoto[gallery10]"></a> </div> </div>
-</div>
-
-<div class="filterDiv -2018">
-  <div id="Display" style="background: url('https://via.placeholder.com/160x110/111111/ededed') center no-repeat;"> <div class="Inner"> <a class="Zoom Cus" href="https://via.placeholder.com/900x500/111111/ededed" rel="prettyPhoto[gallery11]"> <h1 class="Pre">  VIXX06 </h1> <span style="display: block;">$4.50 USD / 10,000 Cr.</span>
-    <a href="https://via.placeholder.com/900x500/ededed/000000" rel="prettyPhoto[gallery11]"> <a href="https://via.placeholder.com/900x500/333333/f7f7f7" rel="prettyPhoto[gallery11]"></a> </div> </div>
-</div>
-
-<div class="filterDiv -2018">
-  <div id="Display" style="background: url('https://via.placeholder.com/160x110/111111/ededed') center no-repeat;"> <div class="Inner"> <a class="Zoom Cus" href="https://via.placeholder.com/900x500/111111/ededed" rel="prettyPhoto[gallery12]"> <h1 class="Pre">  VIXX06 </h1> <span style="display: block;">$4.50 USD / 10,000 Cr.</span>
-    <a href="https://via.placeholder.com/900x500/ededed/000000" rel="prettyPhoto[gallery12]"> <a href="https://via.placeholder.com/900x500/333333/f7f7f7" rel="prettyPhoto[gallery12]"></a> </div> </div>
-</div>
-
-<div class="filterDiv -2018">
-  <div id="Display" style="background: url('https://via.placeholder.com/160x110/111111/ededed') center no-repeat;"> <div class="Inner"> <a class="Zoom Cus" href="https://via.placeholder.com/900x500/111111/ededed" rel="prettyPhoto[gallery13]"> <h1 class="Pre">  VIXX06 </h1> <span style="display: block;">$4.50 USD / 10,000 Cr.</span>
-    <a href="https://via.placeholder.com/900x500/ededed/000000" rel="prettyPhoto[gallery13]"> <a href="https://via.placeholder.com/900x500/333333/f7f7f7" rel="prettyPhoto[gallery13]"></a> </div> </div>
-</div>
-
-<div class="filterDiv -2018">
-  <div id="Display" style="background: url('https://via.placeholder.com/160x110/111111/ededed') center no-repeat;"> <div class="Inner"> <a class="Zoom Cus" href="https://via.placeholder.com/900x500/111111/ededed" rel="prettyPhoto[gallery14]"> <h1 class="Pre">  VIXX06 </h1> <span style="display: block;">$4.50 USD / 10,000 Cr.</span>
-    <a href="https://via.placeholder.com/900x500/ededed/000000" rel="prettyPhoto[gallery14]"> <a href="https://via.placeholder.com/900x500/333333/f7f7f7" rel="prettyPhoto[gallery14]"></a> </div> </div>
-</div>
-
-
-
-<!-- 2014-2016 -->
-<div class="filterDiv -2016">
-  <div id="Display" style="background: url('https://via.placeholder.com/160x110/111111/ededed') center no-repeat;"> <div class="Inner"> <a class="Zoom Cus" href="https://via.placeholder.com/900x500/111111/ededed" rel="prettyPhoto[gallery15]"> <h1 class="Pre">  VIXX06 </h1> <span style="display: block;">$4.50 USD / 10,000 Cr.</span>
-    <a href="https://via.placeholder.com/900x500/ededed/000000" rel="prettyPhoto[gallery15]"> <a href="https://via.placeholder.com/900x500/333333/f7f7f7" rel="prettyPhoto[gallery15]"></a> </div> </div>
-</div>
-
-  <div class="filterDiv -2016">
-  <div id="Display" style="background: url('https://via.placeholder.com/160x110/111111/ededed') center no-repeat;"> <div class="Inner"> <a class="Zoom Cus" href="https://via.placeholder.com/900x500/111111/ededed" rel="prettyPhoto[gallery16]"> <h1 class="Pre">  VIXX06 </h1> <span style="display: block;">$4.50 USD / 10,000 Cr.</span>
-    <a href="https://via.placeholder.com/900x500/ededed/000000" rel="prettyPhoto[gallery16]"> <a href="https://via.placeholder.com/900x500/333333/f7f7f7" rel="prettyPhoto[gallery16]"></a> </div> </div>
-  </div>
-
-  <div class="filterDiv -2016">
-  <div id="Display" style="background: url('https://via.placeholder.com/160x110/111111/ededed') center no-repeat;"> <div class="Inner"> <a class="Zoom Cus" href="https://via.placeholder.com/900x500/111111/ededed" rel="prettyPhoto[gallery17]"> <h1 class="Pre">  VIXX06 </h1> <span style="display: block;">$4.50 USD / 10,000 Cr.</span>
-    <a href="https://via.placeholder.com/900x500/ededed/000000" rel="prettyPhoto[gallery17]"> <a href="https://via.placeholder.com/900x500/333333/f7f7f7" rel="prettyPhoto[gallery17]"></a> </div> </div>
-</div>
-
-
-
-
-<!-- 2010-2013 -->
-<div class="filterDiv -2013">
-  <div id="Display" style="background: url('https://via.placeholder.com/160x110/111111/ededed') center no-repeat;"> <div class="Inner"> <a class="Zoom Cus" href="https://via.placeholder.com/900x500/111111/ededed" rel="prettyPhoto[gallery18]"> <h1 class="Pre">  VIXX06 </h1> <span style="display: block;">$4.50 USD / 10,000 Cr.</span>
-    <a href="https://via.placeholder.com/900x500/ededed/000000" rel="prettyPhoto[gallery18]"> <a href="https://via.placeholder.com/900x500/333333/f7f7f7" rel="prettyPhoto[gallery18]"></a> </div> </div>
-</div>
-
-<div class="filterDiv -2013">
-  <div id="Display" style="background: url('https://via.placeholder.com/160x110/111111/ededed') center no-repeat;"> <div class="Inner"> <a class="Zoom Cus" href="https://via.placeholder.com/900x500/111111/ededed" rel="prettyPhoto[gallery19]"> <h1 class="Pre">  VIXX06 </h1> <span style="display: block;">$4.50 USD / 10,000 Cr.</span>
-    <a href="https://via.placeholder.com/900x500/ededed/000000" rel="prettyPhoto[gallery19]"> <a href="https://via.placeholder.com/900x500/333333/f7f7f7" rel="prettyPhoto[gallery19]"></a> </div> </div>
-</div>
-
-</div>
-
+  </tr>
+</table>
 
 <?php
 require_once( 'assets/include/footer.php' );

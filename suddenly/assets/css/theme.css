@@ -69,6 +69,13 @@ header {
 		padding: 70px 0px;
 	}
 
+	#content2 {
+		width: 80%;
+		text-align: center;
+		margin: 0px auto;
+		padding: 0px 0px;
+	}
+
 
 	#logo {
 		position: relative;
@@ -176,7 +183,7 @@ header {
 	position: relative;
 	float: right;
 	width: 100%;
-	height: 50%;
+	height: 56%;
 	top: 0%;
 	right: 0%;
 	background-color:#0e0e0e;
@@ -208,20 +215,21 @@ header {
 	top: 0px;
 	left: 0px;
 	text-align: right;
-	margin: 0px 0px 0px 0px;
-	padding: 10px 0px; }
+	padding: 20px;
+	margin: 0px;
+}
 
-		#outs img {
-			width: 25px;
+		#outs i {
+			font-size: 16pt;
+			line-height: 14px;
+			color: #000;
 		}
 
 		#outs a {
-			width: 50px;
+			width: 30px;
 			text-align: center;
-			color: #000;
-			opacity: 0.8;
+			color: #333;
 			margin: 0px 60px;
-			padding: 2px 0px 7px 0px;
 			-webkit-transition:all 0.3s ease;
 			-moz-transition:all 0.3s ease;
 			-o-transition:all 0.3s ease;
@@ -231,11 +239,10 @@ header {
 
 		#outs a:hover {
 			position: relative;
-			color: #555;
+			color: #000;
 			background-color: #f7f7f7;
-			border-bottom: 2px solid #333;
 			top: -2px;
-				opacity: 0.9;
+				opacity: 1;
 				-webkit-transition:all 0.3s ease;
 				-moz-transition:all 0.3s ease;
 				-o-transition:all 0.3s ease;

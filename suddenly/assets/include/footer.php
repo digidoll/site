@@ -2,6 +2,26 @@
 </div>
 </section>
 
+<div id="ft">
+<div class="slider">
+  <div class='container'>
+  <div class="ism-slider" data-play_type="once-rewind" id="my-slider">
+    <ol>
+	  <li>
+      <img src="https://via.placeholder.com/800x350/0e0e0e/ededed">
+    </li>
+    <li>
+      <img src="https://via.placeholder.com/800x350/ededed/181715">
+    </li>
+    <li>
+      <img src="https://via.placeholder.com/800x350/333333/ededed">
+    </li>
+    </ol>
+  </div>
+  </div>
+</div>
+</div>
+
 <section id="credit">
 <h1 id="home">support me
   <span>copy code</span>
@@ -10,30 +30,18 @@
 
   <textarea><a href="rabbitdearr.com"><img source="https://via.placeholder.com/350x100/111111/1d1d1d"></a></textarea>
 
-
 <div id="outs">
   <ul>
-    <a href=""> <img src="/site/abtest/assets/img/social/deviantart.png"> </a>
-    <a href=""> <img src="/site/abtest/assets/img/social/github.png"> </a>
-    <a href=""> <img src="/site/abtest/assets/img/social/tumblr.png"> </a>
-    <a href=""> <img src="/site/abtest/assets/img/social/linkedin.png"> </a>
+    <a href=""> <i class="fab fa-deviantart"></i> </a>
+    <a href=""> <i class="fab fa-github-alt"></i> </a>
+    <a href=""> <i class="fab fa-tumblr"></i> </a>
+    <a href=""> <i class="fab fa-linkedin-in"></i> </a>
   </ul>
 </div>
 
 <footer>Design and Coding by <a href="#" target="_blank">digidoll</a> | <a href="#" target="_blank">rabbitdearr</a> &copy; 2013 - 2020 | All Rights Reserved</footer>
 
 </div>
-
-
-
-<script language="JavaScript" src="/site/suddenly/assets/js/popUp.js"></script>
-<script type="text/javascript" src="/site/suddenly/assets/js/jquery-1.6.1.min.js"></script>
-<link rel="stylesheet" href="assets/css/prettyPhoto.css" type="text/css" media="screen" title="prettyPhoto main stylesheet"/>
-<script type="text/javascript" src="/site/suddenly/assets/js/jquery.prettyPhoto.js"></script>
-<script type="text/javascript">
-  $(document).ready(function(){
-    $("a[rel^='prettyPhoto']").prettyPhoto(); });
-</script>
 
 <script type="text/javascript">
 filterSelection("all")

@@ -3,7 +3,9 @@
 </div>
 </section>
 
+<div class="bar"></div>
 <div id="ft">
+
 <div class="slider">
   <div class='container'>
   <div class="ism-slider" data-play_type="once-rewind" id="my-slider">
@@ -21,18 +23,20 @@
   </div>
   </div>
 </div>
-</div>
+
 
 <div id="outs">
 <ul>
-  <a href=""> <img src="/site/abtest/assets/img/social/deviantart.png"> </a>
-  <a href=""> <img src="/site/abtest/assets/img/social/github.png"> </a>
-  <a href=""> <img src="/site/abtest/assets/img/social/tumblr.png"> </a>
-  <a href=""> <img src="/site/abtest/assets/img/social/linkedin.png"> </a>
+  <a href=""> <i class="fab fa-github-alt"></i> </a>
+  <a href=""> <i class="fab fa-codepen"></i> </a>
+  <a href=""> <i class="fab fa-deviantart"></i> </a>
+  <a href=""> <i class="fab fa-linkedin-in"></i> </a>
 </ul>
 </div>
 
+
 <footer>Design and Coding by <a href="#" target="_blank">digidoll</a> | <a href="#" target="_blank">rabbitdearr</a> &copy; 2013 - 2019 | All Rights Reserved</footer>
+</div>
 
 </div>
 </body>

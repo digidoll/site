@@ -13,9 +13,9 @@ body {
 p {
 	margin: 0px;
 	padding: 5px 10px 1px 10px;
-	font-family: helvetica;  
-	color: #555555; 
-	font-size: 9px;
+	font-family: arial;
+	color: #000;
+	font-size: 8pt;
 	text-align: justify;
 }
 a {
@@ -26,7 +26,7 @@ a:hover {
 	font-style: italic;
 	cursor: help;
 }
-u { 
+u {
 	text-decoration: none;
 	text-transform: none;
 	border-bottom:1px dotted #a58876;
@@ -62,10 +62,10 @@ h2 {
 }
 
 h3 {
-	font: normal 11px small fonts; 
-	color: #0E0E0E; 
-	text-decoration: none; 
-	text-transform: uppercase; 
+	font: normal 11px small fonts;
+	color: #0E0E0E;
+	text-decoration: none;
+	text-transform: uppercase;
 	background-color: transparent;
 	border: 1px solid #bdb3af;
 	padding: 5px 5px;
@@ -109,7 +109,7 @@ pink {
 	color: #a58876;
 	font: normal 11px small fonts;
 	text-align: center;
-	
+
 }
 
 

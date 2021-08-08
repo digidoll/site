@@ -1,0 +1,613 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url('http://fonts.googleapis.com/css?family=Roboto:100,200,300,400');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Barlow+Condensed:100,200,300,400&display=swap');
+
+body {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	font-weight:400;
+	color:#0b0b0b;
+	background-color: #111;
+}
+
+
+.all {
+	display: inline-block;
+  position: relative;
+  width:76%;
+	height:auto;
+	left:12%;
+	top:0%;
+	padding: 0px;
+  margin: 0px auto;
+	min-height: 1400px;
+	background-color: #333!important;
+	background-image: url('/site/argo/assets/img/concrete.png');
+	background-position: top-left;
+}
+
+header {
+	float: right;
+	width:78%;
+	height: 34%;
+	top:42px;
+	right:0;
+	text-align: center;
+	background-color:#0a0a0a;
+	background-image: url('');
+	margin: 0px auto;
+	padding: 0% 0%;
+	z-index:999;
+}
+
+#logo {
+	position: relative;
+	margin: 0% auto 0%;
+	padding: 9% 0%;
+	opacity: 1;
+	z-index: 999;
+	background-color: #transparent!important;
+}
+
+#logo img {
+	opacity: 0.8;
+}
+
+#logo h5 {
+	font-family: 'roboto', sans-serif;
+	font-size: 12pt;
+	font-weight: 300;
+	line-height: 20px;
+	letter-spacing: 8px;
+	text-transform: uppercase;
+	text-align: center;
+	color: #f7f7f7;
+	margin: 0px auto;
+	padding: 15px 0px 0px;
+	cursor: default;
+}
+
+#logo h5 span {
+	display: block;
+	font-family: 'Barlow Condensed', sans-serif;
+	color: #aaa;
+	font-size: 5pt;
+	text-align: center;
+	font-weight: 400;
+	line-height: 12pt;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	padding-bottom: 4px;
+	margin: 0px;
+}
+
+#overlay {
+	position: relative;
+	width: 100%;
+	top: 0px;
+	left: 0px;
+	background-color: transparent;
+	background-image: url("/site/argo/assets/img/header.png");
+	background-size: cover;
+	background-position: top left;
+	opacity: 1;
+	z-index: 1;
+}
+
+
+#main-content{
+	position: relative;
+	width:78%;
+	float: right;
+	right: 0px;
+	top: 0%;
+	background-color: #f7f7f7;
+	padding: 70px 0px;
+	margin: 0% auto;
+}
+
+	#home{
+		width: 75%;
+		left: 0%;
+		background-color:#f7f7f7;
+		margin: 0px auto;
+	}
+
+
+nav {
+	display: inline-block;
+	position: absolute;
+	float: left;
+	width: 22%;
+	height: calc(100% - 42px);
+	left:0%;
+  top:37px;
+	background-color: rgba(0,0,0,0.4);
+	padding: 0% 0px 0%;
+  margin: 0px auto;
+	z-index:9;
+}
+
+
+	nav a:link,
+	nav a:visited,
+	nav a:active {
+		display: block;
+		font-family: arial;
+		font-size: 7pt;
+		font-weight: bold;
+		letter-spacing: 2px;
+		text-align: left;
+		text-decoration: none;
+		text-transform: uppercase;
+		color: #333;
+		background-color: #e0e0e0;
+		border-bottom:1px solid #fff;
+		border-left: 5px solid #555;
+		padding: 25px 0px 20px 30px;
+		margin: 0px 0px;
+			-webkit-transition:all 1s ease;
+			-moz-transition:all 1s ease;
+			-o-transition:all 1s ease;
+			-ms-transition:all 1s ease;
+			transition:all 1s ease;
+	}
+
+		nav a:hover {
+			letter-spacing: 2pt;
+			text-align: left;
+			color: #555;
+			background-color: #f1f1f1;
+			border-left: 5px solid #333;
+			padding-left: 50px;
+				transition: all 0.6s ease-in-out;
+				-moz-transition: all .6s ease-in-out;
+				-webkit-transition: all .6s ease-in-out;
+				transition:all .6s ease;
+			cursor:help;
+	}
+
+	nav span {
+		display: block;
+		font-size: 5pt;
+		letter-spacing: 3px;
+		color: #aaa;
+		margin-top: -3px;
+	}
+
+		nav a:hover span {
+			color: #aaa;
+			font-style: italic;
+		}
+
+		#ft {
+			position: relative;
+			float: right;
+			width: 100%;
+			height: 35%;
+			top: 0%;
+			right: 0%;
+			background-color:#0e0e0e;
+			background-image: url('/site/argo/assets/img/concrete.png');
+			background-position: top-left;
+			background-repeat: repeat;
+			text-align: center;
+			padding: 0% 0px;
+			margin: 0px auto 0px;
+		}
+
+		.slider {
+			position: relative;
+			width: 78%;
+			top: 0%;
+			left: 22%;
+			text-align: center;
+			padding:0%;
+			margin: 0px;
+		}
+
+#outs {
+	display: inline-block;
+	position: relative;
+	top: 0px;
+	width: 100%;
+	padding: 10px 0px;
+	background-color: #e0e0e0;
+	text-align: right;
+}
+
+#outs ul {
+	width: 78%;
+	float: right;
+	text-align: center;
+}
+#outs a {
+	width: 50px;
+	text-align: center;
+	color: #000;
+	opacity: 0.8;
+	margin: 0px 60px;
+	padding: 2px 0px 7px 0px;
+	-webkit-transition:all 0.3s ease;
+	-moz-transition:all 0.3s ease;
+	-o-transition:all 0.3s ease;
+	-ms-transition:all 0.3s ease;
+	transition:all 0.3s ease;
+}
+
+#outs a:hover {
+	position: relative;
+	color: #555;
+	background-color: #f7f7f7;
+	border-bottom: 2px solid #333;
+	top: -2px;
+		opacity: 0.9;
+		-webkit-transition:all 0.3s ease;
+		-moz-transition:all 0.3s ease;
+		-o-transition:all 0.3s ease;
+		-ms-transition:all 0.3s ease;
+		transition:all 0.3s ease;
+}
+
+#outs img {
+	width: 25px;
+}
+
+		footer {
+			display: inline-block;
+			position: relative;
+			left:0;
+			bottom:0px;
+			width:100%;
+			font-family: Sans-serif;
+			font-size: 5pt;
+			letter-spacing: 1.5px;
+			text-align: center;
+			color:#ededed;
+			background-color:#000;
+			border-top: #fff;
+			padding: 15px 0px;
+			margin: 0px auto 0px;
+
+		}
+
+			footer a,footer a:link,footer a:visited,a:active {
+					font-family: Sans-serif;
+					font-size: 5pt;
+					letter-spacing: 2px;
+					text-align: center;
+					text-decoration:none;
+					text-transform: uppercase;
+					color:#fff;
+					background-color:transparent;
+					padding:3px 2px;
+				}
+					footer	a:hover {
+							color:#f7f7f7;
+							background-color:#222;
+							cursor:help;
+						}
+
+				#music {
+					display: block;
+					height: 10px;
+					font-family: arial;
+					font-size: 7px;
+					font-weight: normal;
+					letter-spacing: 2px;
+					text-align: center;
+					text-decoration: none;
+					text-transform: uppercase;
+					background-color: #e0e0e0;
+					border-bottom:1px solid #fff;
+					padding: 20px 0px 40px 0px;
+					margin: 0px 0px;
+				}
+
+				.playerbutton{cursor:pointer;border:none;background:transparent;outline:none;display:inline;}
+				.youtubebox,.preload_box{width:1px;height:1px;overflow:hidden;position:absolute;display:inline;}
+
+		::-webkit-scrollbar {		width:7px; }
+		::-webkit-scrollbar-track {		background-color:#000; }
+		::-webkit-scrollbar-thumb {		background-color:#ededed; }
+		::-webkit-scrollbar:horizontal {		height:0; }
+
+hr {
+	border-top: 5px double #ddd;
+	border-left: 0px double #ddd;
+	border-right: 0px double #ddd;
+	margin: 0px auto 30px;
+}
+
+
+		p {
+			position: relative;
+			text-align: justify;
+			color: #666666;
+			font-size: 7pt;
+			line-height: 10pt;
+			letter-spacing: 1px;
+			transform: translate(0, 0);
+			padding: 0px 10px;
+			margin: 4px auto 0px;
+			opacity: 1;
+			overflow: hidden;
+			z-index: 2;
+
+		}
+
+		u {
+			text-decoration:none;
+			text-transform:none;
+			border-bottom:1px dotted #333;
+		}
+
+		i { color:#888; }
+
+		b { font-weight:bold;
+			text-transform:none;
+			text-decoration:none;
+			color:#333;
+		}
+
+		a,a:link,a:visited,a:active {
+			font-family: Sans-serif;
+			font-size: 5pt;
+			letter-spacing: 2px;
+			font-weight: bold;
+			text-align: center;
+			text-decoration:none;
+			text-transform: uppercase;
+			color:#333;
+			background-color:transparent;
+			padding:1px 2px;
+		}
+				a:hover {
+					color:#f7f7f7;
+					background-color:#333;
+					cursor:help;
+				}
+
+			nav	h6 {
+					width: 100%;
+					height: 10px;
+					text-align: center!important;
+					font-family: arial;
+					font-size: 7px;
+					font-weight: normal;
+					color: #f7f7f7;
+					background-color: #1a1a1a;
+					border-bottom: 2px solid #fff;
+					text-decoration: none;
+					text-transform: uppercase;
+					letter-spacing: 2px;
+					padding: 25px 0px;
+					margin: 0px 0px 0px;
+				}
+
+
+
+#proceed {
+	position: relative;
+	float: left;
+	left: 0px;
+	padding: 0px 0px 0px;
+	margin: 8px 0px 0px 25px;
+	z-index: 999;
+	opacity: 1;
+}
+
+#proceed a {
+				font-family: arial;
+				font-size: 7pt;
+				font-weight: bold;
+				letter-spacing: 3px;
+				line-height: 20px;
+		text-decoration:none;
+		text-transform:uppercase;
+		text-align: left;
+		color:#000;
+		-webkit-transition:all 1s ease;
+		-moz-transition:all 1s ease;
+		-o-transition:all 1s ease;
+		-ms-transition:all 1s ease;
+		transition:all 1s ease;
+		padding: 0px 0px;
+		margin: 0px 0px 30px 20px;
+		cursor: help;
+	}
+
+	#proceed a:hover{
+		font-size:7pt;
+		font-weight: 100;
+		letter-spacing: 6px;
+		color: #f7f7f7;
+		background-color: transparent;
+		-webkit-transition:all 1s ease;
+		-moz-transition:all 1s ease;
+		-o-transition:all 1s ease;
+		-ms-transition:all 1s ease;
+		transition:all 1s ease;
+	}
+
+	#proceed a:before {
+		float: left;
+		content: url("/site/argo/assets/img/arw.png");
+		padding: 0px 0px 0px;
+		margin: 0px 20px 0px 0px;
+		opacity: 0.3;
+		-webkit-transition: all 1s ease;
+		-moz-transition: all 1s ease;
+		-o-transition: all 1s ease;
+		-ms-transition: all 1s ease;
+		transition: all 1s ease;
+	}
+
+	#proceed a:hover:before {
+		opacity: 1;
+		-webkit-transition:all 1s ease;
+		-moz-transition:all 1s ease;
+		-o-transition:all 1s ease;
+		-ms-transition:all 1s ease;
+		transition:all 1s ease;
+	}
+
+#contact {
+	position: relative;
+	width: 100%;
+	top: 0%;
+	text-align: right;
+	background-color: #000;
+		border-bottom: 1px solid #333;
+	padding: 0px 0px;
+	margin: 0px auto;
+	z-index: 9;
+}
+
+	#contact a:link,
+	#contact a:visited,
+	#contact a:active {
+		display:inline-block;
+		width:100px;
+		font-family: 'Roboto', sans-serif;
+		font-size: 5pt;
+		font-weight: 400;
+		letter-spacing: 3px;
+		text-align:center;
+		text-decoration:none;
+		text-transform:uppercase;
+		color:#ddd;
+		background-color: #transparent;
+		padding: 10px 0px;
+		margin: 0px auto;
+		cursor:help;
+		-webkit-transition: all 0.6s ease;
+		-moz-transition: all 0.6s ease;
+		-o-transition: all 0.6s ease;
+		-ms-transition: all 0.6s ease;
+		transition: all 0.6s ease;
+	}
+
+	#contact a:hover {
+		letter-spacing: 3px;
+		font-weight: bold;
+		color: #333;
+		background-color: #f7f7f7;
+		cursor:help;
+		-webkit-transition: all 0.6s ease;
+		-moz-transition: all 0.6s ease;
+		-o-transition: all 0.6s ease;
+		-ms-transition: all 0.6s ease;
+		transition: all 0.6s ease;
+	}
+
+@media only screen and (min-width: 801px) {
+
+		#menuToggle, #menu, menu {
+			display: none;
+		}
+
+}
+
+@media only screen and (max-width: 800px) {
+
+	body {
+		overflow-x: hidden;
+	}
+					.all {
+						width: 100%;
+						left: 0%;
+						top: 0px;
+						min-height: 1000px;
+						overflow-x: hidden;
+					}
+
+					header {
+						float: left;
+						top: 50px;
+						left:0px;
+						width: 100%;
+						height: 36%;
+						background-color: #0e0e0e;
+						background-image: url('/site/argo/assets/img/concrete.png');
+						background-position: top-left;
+						padding: 0px;
+						margin: 0px;
+					}
+
+					#logo {
+						padding: 14% 0% 0%;
+						z-index: 4;
+					}
+
+					#main-content {
+						position: relative;
+						left: 0px;
+						top: 0%;
+						width: 100%;
+						background-color: #f7f7f7;
+						padding: 0px 0px;
+						margin: 0px auto 0px;
+
+					}
+
+					#home {
+						position: relative;
+						width: 90%;
+						left: 0px;
+						top:0px;
+						padding: 50px 0px;
+						margin: 0px auto;
+						z-index: 1;
+					}
+
+					nav {
+						display: none;
+					}
+
+					#contact  {
+						display: none;
+					}
+
+					#proceed {
+						display: none;
+					}
+
+					#ft {display: none;}
+
+					#outs, #outs ul {
+						width: 100%;
+						text-align: center;
+						margin: 0px auto;
+					}
+
+					#outs a, #outs a:hover, #outs a:active {
+						margin: 0px 50px;
+					}
+
+					#outs img {
+						width: 25px;
+					}
+
+::-webkit-scrollbar {		display: none; }
+
+				}
+
+@media only screen and (max-width: 500px) {
+	#outs, #outs ul {
+		width: 100%;
+		text-align: center;
+		margin: 0px auto;
+	}
+
+	#outs a, #outs a:hover, #outs a:active {
+		margin: 0px 20px;
+	}
+
+	#outs img {
+		width: 20px;
+	}
+}

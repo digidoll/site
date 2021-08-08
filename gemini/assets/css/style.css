@@ -64,7 +64,7 @@
 	img.head {
 		position: relative;
 		height: 300px;
-		opacity: 1;
+		opacity: 0.2;
 		margin: 0px auto;
 		z-index: 999;
 	}
@@ -112,7 +112,7 @@
 
 	h3 {
 		text-align:right;
-		color: #f3f3f3;
+		color: #000;
 		font: normal 5pt small fonts;
 		text-transform: uppercase;
 		line-height: 8px;
@@ -120,7 +120,7 @@
 		margin-bottom: 0px;
 		margin-right: 5px;
 		letter-spacing: 1.2px;
-		margin-top: -5px;
+		margin-top: 0px;
 		margin-bottom: 10px;
 		text-shadow: 2px 2px 6px #0e0e0e;
 	}
@@ -175,7 +175,7 @@
 }
 
 .dp-img-1 {
-	background-image: url("/preview/site/gemini/assets/img/green.png");
+	background-image: url("https://www.imvu.com/catalog/web_av_pic.php?u=50183747");
 }
 
 .dp-item:hover {

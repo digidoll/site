@@ -104,8 +104,8 @@
  */
 #menu {
   position: fixed;
-  width: 100%;
-
+  width: 85%;
+  left: 12%;
   background-color: #f7f7f7!important;
   margin: 13px 0 0 -60px;
   padding: 0px 0px 0px 40px;
@@ -142,6 +142,7 @@ ul#menu a, ul#menu a:active {
   border-left: 5px solid #333;
   transition: color 0.3s ease;
     padding: 10px 0px 10px 40px;
+    z-index: 999;
 }
 
 ul#menu a:active, ul#menu a:hover {
