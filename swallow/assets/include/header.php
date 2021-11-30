@@ -14,7 +14,7 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/slider.css">
 
 	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.12.0/css/all.css">
-
+	
 	<script src="/site/swallow/assets/js/ism-2.2.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 	<script type='text/javascript' src='/site/swallow/assets/js/jquery.ba-hashchange.min.js'></script>

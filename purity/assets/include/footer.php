@@ -11,7 +11,7 @@
   <div id="outs">
   <ul>
     <a href=""> <i class="fab fa-github-alt"></i> <span> github </span> </a>
-    <a href=""> <i class="fab fa-tumblr"></i> <span> tumblr </span> </a>
+    <a href=""> <i class="fab fa-deviantart"></i> <span> deviantart </span> </a>
     <a href=""> <i class="fab fa-linkedin-in"></i> <span> linkedin </span> </a>
   </ul>
   </div>

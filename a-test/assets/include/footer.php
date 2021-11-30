@@ -64,5 +64,19 @@
 
 </div>
 
+
+	<script type='text/javascript' src='/site/area51/assets/js/wowslider.js'></script>
+<script>
+  window.console = window.console || function(t) {};
+</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+<script>
+  if (document.location.search.match(/type=embed/gi)) {
+    window.parent.postMessage("resize", "*");
+  }
+</script>
+
+
 </body>
 </html>

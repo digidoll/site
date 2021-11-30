@@ -447,7 +447,7 @@ h1#sv {
 	background-color: transparent;
 	border: none;
 	margin:0px auto;
-	padding: 7% 0px;
+	padding: 11% 0px 0px;
 }
 
 	.quote p {
@@ -485,6 +485,7 @@ h1#sv {
 }
 
 .quote h4 {
+	bottom: 0px;
 	text-align: center;
 	font-family: arial;
 	font-size: 8px;
@@ -513,8 +514,37 @@ h1#sv {
 	width:160px;
 	height:110px;
 	text-align:center;
-	margin: 0px 20px;
+	margin: 20px 0px;
 }
+
+.box .Inner {
+  position: relative;
+  width: 170px;
+  height: 170px;
+  top: 0;
+  left: 0;
+  color: #fff;
+  font: bold 11px Calibri;
+  text-transform: Uppercase;
+  text-align: center;
+  letter-spacing: 1.5px;
+  opacity: 0;
+  background-color: rgba(255, 199, 238, 0.50);
+  border-radius: 20px;
+  cursor: default;
+  -webkit-transition:all 0.5s ease-in-out;
+     -moz-transition:all 0.5s ease-in-out;
+      -ms-transition:all 0.5s ease-in-out;
+       -o-transition:all 0.5s ease-in-out;
+          transition:all 0.5s ease-in-out; }
+
+.box .Inner:hover {
+  opacity: 1;
+  -webkit-transition:all 0.5s ease-in-out;
+     -moz-transition:all 0.5s ease-in-out;
+      -ms-transition:all 0.5s ease-in-out;
+       -o-transition:all 0.5s ease-in-out;
+          transition:all 0.5s ease-in-out; }
 
 .image{
 	margin:0 auto;
@@ -596,6 +626,12 @@ button {
 
 
 
+form {
+	width: 20%;
+	text-align: center;
+	margin: 0px auto;
+	padding: 50px 0px;
+}
 
 
 
@@ -654,7 +690,10 @@ section#credit {
 			padding: 0px;
 		}
 
-textarea {
+
+
+
+textarea.ft {
 	position: relative;
 	float: right;
 	width: 30%;

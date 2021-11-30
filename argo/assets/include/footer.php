@@ -26,12 +26,10 @@
 
 
 <div id="outs">
-<ul>
-  <a href=""> <i class="fab fa-github-alt"></i> </a>
-  <a href=""> <i class="fab fa-codepen"></i> </a>
-  <a href=""> <i class="fab fa-deviantart"></i> </a>
-  <a href=""> <i class="fab fa-linkedin-in"></i> </a>
-</ul>
+    <a href=""> <i class="fab fa-github-alt"></i> </a>
+    <a href=""> <i class="fab fa-codepen"></i> </a>
+    <a href=""> <i class="fab fa-deviantart"></i> </a>
+    <a href=""> <i class="fab fa-linkedin-in"></i> </a>
 </div>
 
 

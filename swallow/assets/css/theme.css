@@ -16,11 +16,10 @@ body {
 
 
 .all {
-	display: inline-block;
   position: relative;
   width:76%;
 	height:auto;
-	left:12%;
+	left:0%;
 	top:0%;
 	padding: 0px;
   margin: 0px auto;

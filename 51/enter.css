@@ -1,0 +1,266 @@
+@charset "utf-8";
+/* CSS Document */
+
+	@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap');
+	@import url('https://fonts.googleapis.com/css?family=BenchNine:300,400&display=swap');
+	@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400&display=swap');
+	@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,400&display=swap');
+	@import url('https://fonts.googleapis.com/css?family=Barlow+Condensed:100,200,400&display=swap');
+	@import url('https://fonts.googleapis.com/css?family=Raleway:100,200,300,400&display=swap');
+	@import url('https://fonts.googleapis.com/css?family=Advent+Pro:100,200,300,400&display=swap');
+	@import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow&display=swap');
+
+	body{
+		background-color:#121212;
+				text-decoration:none;
+                overflow-y:hidden;
+                overflow-x:hidden;
+	}
+
+	#all{
+		width:100%;
+		height:100%;
+		background-color:#0d0d0d;
+		position:absolute;
+		left:0;
+		top:0;
+	}
+
+.bg{
+	width:100%;
+	height:100%;
+	position:absolute;
+	left:0;
+	top:0;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-image:url('https://images.unsplash.com/photo-1446797376004-9352dfc9f789?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1062&q=80');
+}
+
+/*
+	#logo{
+		width:619px;
+		height:310px;
+		background-image:url('logo.png');
+		background-position:center;
+		background-repeat:no-repeat;
+		background-attachment:scroll;
+		position:relative;
+		margin:0 auto;
+		top:200px;
+	}
+*/
+
+#logo{
+	position:relative;
+	top:25%;
+	width:40%;
+	height:42%;
+	background-color: rgba(0, 0, 0, 0.4);
+	border: 1px solid #ededed;
+	margin:0 auto;
+}
+
+h1 {
+	position: relative;
+	top: 35%;
+	text-align:center;
+	font-family: 'Raleway', sans-serif;
+	color: #fff;
+	font-size: 48pt;
+	font-weight: 100;
+	letter-spacing: 8px;
+	text-transform: uppercase;
+	margin:0 auto;
+}
+
+h2 {
+	position: relative;
+	top: 34%;
+	width: 150px;
+	color: #fff;
+	font: normal 10px small fonts;
+	font-family: arial;
+	font-size: 7px;
+	font-weight: normal;
+	text-align: center;
+	letter-spacing: 8px;
+	text-align:center;
+	text-transform: uppercase;
+	text-decoration: none;
+	margin: 0 auto;
+}
+
+	#proceed{
+		position: relative;
+		display: block;
+		width: 100%;
+		top: 40%;
+		text-align: center;
+		margin: 0px auto;
+	}
+
+	#proceed a:link, #proceed a:visited, #proceed a:active {
+		display:inline-block;
+		width:120px;
+	  height: 10px;
+	  line-height: 10px;
+		text-decoration:none;
+		text-transform:uppercase;
+		color:#fff;
+		font-family: 'Roboto', sans-serif;
+		font-size:10px;
+		letter-spacing:8px;
+		background-color:rgba(255,255,255,.0);
+		text-align: center;
+		padding: 10px;
+		 -webkit-transition: all 1s ease;
+		 -moz-transition: all 1s ease;
+		 -o-transition: all 1s ease;
+		 -ms-transition: all 1s ease;
+		 transition: all 1s ease;
+		cursor: crosshair;
+		 /* background-color:rgba(0,0,0,.8); */
+	}
+
+	#proceed a:hover{
+		font-size:10px;
+		letter-spacing: 10px;
+		color:#cad2de;
+		text-align: center;
+		background-color:rgba(0,0,0,.6);
+		cursor:crosshair;
+	}
+
+
+
+	#outlinks{
+		position: relative;
+		width: 100%;
+		top: 42%;
+		text-align:center;
+		font-family: 'Raleway', sans-serif;
+		color: #fff;
+		font-size: 50pt;
+		font-weight: 100;
+		text-transform: uppercase;
+		text-decoration: none;
+		letter-spacing: 4px;
+		margin: 0 auto;
+	}
+
+	#outlinks a:link, #outlinks a:visited, #outlinks a:active{
+		display:inline-block;
+		width:150px;
+		height:30px;
+		line-height:30px;
+		text-decoration:none;
+		text-transform:uppercase;
+		color:#fff;
+		margin-left:10px;
+		margin-right:10px;
+		font-family: 'Roboto', sans-serif;
+		font-size:8px;
+		letter-spacing:3px;
+		 -webkit-transition: all 0.5s ease;
+		 -moz-transition: all 0.5s ease;
+		 -o-transition: all 0.5s ease;
+		 -ms-transition: all 0.5s ease;
+		 transition: all 0.5s ease;
+	}
+
+	#outlinks a:hover{
+		background-color:rgba(255,255,255,.1);
+		cursor:crosshair;
+		letter-spacing:4px;
+	}
+
+				#outlinks1{
+				width:100%;
+				height:50px;
+				text-align:center;
+				position:absolute;
+				right:0;
+				bottom:20px;
+			}
+
+				#outlinks1 a:link, #outlinks1 a:visited, #outlinks1 a:active{
+					display:inline-block;
+					width:50px;
+					height:50px;
+					line-height:50px;
+					text-align:center;
+					background-color:rgba(255,255,255,.2);
+					border-radius:50px;
+				 -webkit-transition: all 1s ease;
+				 -moz-transition: all 1s ease;
+				 -o-transition: all 1s ease;
+				 -ms-transition: all 1s ease;
+				 transition: all 1s ease;
+
+				}
+
+				#outlinks1 a:hover{
+					cursor:crosshair;
+					background-color:rgba(255,255,255,.1);
+					border-radius:50px;
+				}
+				#outlinks1 a.report{
+					background-image:url("assets/img/report.png");
+					background-repeat:no-repeat;
+					background-position:center;
+					margin-right:50px;
+				}
+
+				#outlinks1 a.block{
+					background-image:url('assets/img/block.png');
+					background-repeat:no-repeat;
+					background-position:center;
+					margin-left:50px;
+				}
+
+
+        #url_panel ,#PREMADE,#PREMADE1{
+                position:absolute;
+                left:0;
+                top:0;
+                height:100%;
+                width:100%;
+        }
+
+        .all ,#PREMADE,#PREMADE1{
+                position:absolute;
+                left:0;
+                top:0;
+                width:100%;
+                height:100%;
+        }
+
+        ::-webkit-selection{color:#0d0d0d; background-color:transparent;}
+                ::-moz-selection{color:#0d0d0d; background-color:transparent;}
+                        ::-o-selection{color:#0d0d0d; background-color:transparent;}
+                                ::selection{color:#0d0d0d; background-color:transparent;}
+
+        #footerBanner, #top_links, #footer_style, #copyright, #avatarname {
+                display:none !important
+        }
+
+        #url_panel_colRow, .imvucodes_net {
+                display:none !important;
+        }
+
+        #url_panel_header,.imvucodes_net {
+                display:none;
+        }
+
+        .paneltitle, .panelmenu, .imvucodes_net {
+                display:none !important;
+        }
+
+        #aboutme_panel, #contact_panel, #dev_panel, #wishlist_panel, #visitors_panel, #messages_panel, #tagcloud_panel, #stickers_panel, #collect_panel,  #room_panel, #rankings_panel, #cool_panel, #gallery_panel, #friends_panel, #streetteam_panel, #blog_panel, #music_panel, #rss_panel, #special_panel,#outfits_panel {
+                width:1000px !important;
+                position:relative;
+                top:4500px;
+                margin:0 auto;
+        }

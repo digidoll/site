@@ -41,8 +41,3 @@
 <div id="home">
 
 <h2> EVENTS </h2>
-
-
-  <?php
-  require_once( 'assets/include/footer.php' );
-  ?>

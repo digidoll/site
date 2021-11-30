@@ -137,8 +137,10 @@ h2 {
 	color: #000;
 	background-color: #fff;
 	padding: 0px 0px 0px 0px;
-	margin: 0px 0px 0px 0px;
+	margin: 0px 0px 50px 0px;
 }
+
+
 
 
 .newspaper {
@@ -335,8 +337,29 @@ hr {
 	  background-color: #45a049;
 	}
 
+	.sub {
+		text-align:center;
+		margin: 0px auto;
+	}
+
+	.sub table {
+		text-align: center;
+		margin: 0px auto;
+		float: clear;
+		width: 30%;
+	}
+
 	.container {
 	  border-radius: 5px;
 	  background-color: #f7f7f7;
 	  padding: 20px;
 	}
+
+
+
+
+	@media only screen and (max-width: 800px) {
+		.newspaper {
+			width: 90%;
+		}
+		}

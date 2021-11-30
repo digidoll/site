@@ -22,6 +22,7 @@
 	</div>
 </div>
 
+<div class="btm">
 	<div class="menu2">
 	<a href="/site/test/uts.html" target="ex">updates</a>
 	<a href="/site/test/faq.html" target="ex">f.a.q.</a>
@@ -31,6 +32,7 @@
 	<div id="ex">
 		<iframe src="/site/test/uts.html" name="ex" border="0" marginwidth="0" marginheight="0" allowtransparency="true" frameborder="0" height="100%" width="100%"></iframe>
 	</div>
+</div>
 </div>
 
 

@@ -5,50 +5,72 @@
 
 <meta content="width=device-width, initial-scale=1" name="viewport" />
 
-	<link rel="shortcut icon" type="image/x-icon" href="/site/a-test/assets/img/favicon.ico" />
-	<title>Welcome to Rabbitdearr</title>
+<link rel="shortcut icon" type="image/x-icon" href="/site/area51/assets/img/favicon.ico" />
+<title>Welcome to Rabbitdearr</title>
 
 	<link rel="stylesheet" type="text/css" href="assets/css/theme.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-		<link rel="stylesheet" type="text/css" href="assets/css/grid.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/menu.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/wowslider.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/slider.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/faq.css">
 
-	<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js'></script>
-	<script type='text/javascript' src='/site/a-test/assets/js/jquery.ba-hashchange.min.js'></script>
-	<script type='text/javascript' src='/site/a-test/assets/js/dynamicpage.js'></script>
-	<script type='text/javascript' src='/site/a-test/assets/js/music.js'></script>
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.12.0/css/all.css">
+
+	<script type='text/javascript' src="/site/area51/assets/js/ism-2.2.min.js"></script>
+	<script type='text/javascript' src='/site/area51/assets/js/jquery.ba-hashchange.min.js'></script>
+	<script type='text/javascript' src='/site/area51/assets/js/dynamicpage.js'></script>
+	<script type='text/javascript' src='/site/area51/assets/js/music.js'></script>
+	<script type='text/javascript' src='/site/area51/assets/js/wowslider.js'></script>
 	<script src="https://www.youtube.com/player_api"></script>
+
+	<link rel="stylesheet" type="text/css" href="/site/area51/assets/css/jquery.fancybox.css" media="screen" />
+	<script type="text/javascript" src="/site/area51/assets/js/jquery-1.10.1.min.js"></script>
+	<script type="text/javascript" src="/site/area51/assets/js/jquery.fancybox.js"></script>
+	<script type="text/javascript" src="/site/area51/assets/js/main.js"></script>
+
+
+
+	<script>
+	$(function(){
+		$(window).scroll(function() {
+			if ($(this).scrollTop() > 100) {
+			$('.nav').addClass('nav-fixed');
+		}
+
+		else {
+			$('.nav').removeClass('nav-fixed');
+			}
+			});
+		});
+</script>
 
 </head>
 
 <body>
+
+
 <div class="all">
 
-<div id="top">
-	<h1> digidoll </h1>
-</div>
+<header>
+	<div id="logo">
+		<img src="/site/suddenly/assets/img/logo.png">
+		<h5> digi nicole
+		<span> design & development <span> </h5>
+	</div>
+</header>
 
-
-<div id="nav">
-	<a href="index.html#top">index <span>homepage</span> </a>
-	<a href="index.html#aboutme">biography <span>about me</span></a>
-	<a href="index.html#services">services <span>etx</span></a>
-	<a href="index.html#faq">faq <span>homepage</span></a>
-	<a href="index.html#gallery">affiliates <span>homepage</span></a>
-	<a href="index.html#footer">contact <span>homepage</span></a>
-</div>
-
-	<header>	</header>
-
-	<div id="nav2">
-		<a href="index.html#top">home</a>
-		<a href="index.html#aboutme">about me</a>
-		<a href="index.html#services">services</a>
-		<a href="index.html#faq">faq</a>
-		<a href="index.html#gallery">affiliates</a>
-		<a href="index.html#footer">contact</a>
+	<div class="nav">
+		<a href="index.php">home</a>
+	 	<a href="about.php">biography</a>
+		<a href="services.php">services</a>
+		<a href="design.php">design</a>
+		<a href="faq.php">faq</a>
+	 	<a href="affiliates.php">affiliates</a>
+		<a href="contact.php">contact</a>
 	</div>
 
 
-	<section id="main-content">
-		<div id="guts">
-		<div id="home">
+<section id="main-content">
+<div id="guts">
+<div id="home">

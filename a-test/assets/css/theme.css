@@ -8,7 +8,7 @@ body {
 	font-size:10px;
 	font-weight:400;
 	color:#0b0b0b;
-	background-color: #0d0d0d;
+	background-color: #0a0a0a;
 }
 
 .all {
@@ -22,6 +22,7 @@ body {
 	margin: 0px auto;
 	margin-top: 0;
 	min-height: 1400px;
+	box-shadow: 1px 1px 20px #000;
 }
 
 
@@ -51,15 +52,58 @@ body {
 header {
 	position: relative;
 	width:100%;
-	background-color:#0a0a0a!important;
-	background-image: url('/site/a-test/assets/img/untitled.png');
-	background-size: cover;
-	background-position: top-left;
+	top:0px;
 	left:0;
-	top:0%;
-	padding: 17% 0%;
+	text-align: center;
+	background-color:#090909;
+	background-image: url('/site/suddenly/assets/img/concrete.png');
+	background-position: top-left;
 	margin: 0px auto;
+	padding: 3% 0%;
 	z-index:999;
+}
+
+#logo {
+	position: relative;
+	width: 25%;
+	text-align: center;
+	margin: 0px auto;
+}
+
+#logo img {
+	float: left;
+	border: 2px solid #f7f7f7;
+	border-radius: 50px;
+	padding: 10px;
+	margin: 0px 20px 0px 0px;
+}
+
+#logo h5 {
+	font-family: 'roboto', sans-serif;
+	font-size: 1.3em;
+	font-weight: 300;
+	line-height: 20px;
+	letter-spacing: 6px;
+	text-transform: uppercase;
+	text-align: justify;
+	color: #f7f7f7;
+	margin: 10px auto;
+	padding: 15px 0px 0px;
+	cursor: default;
+}
+
+#logo h5 span {
+	display: block;
+	font-family: 'Barlow Condensed', sans-serif;
+	color: #aaa;
+	font-size: 0.5rem;
+	text-align: justify;
+	font-weight: 400;
+	line-height: 12pt;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	padding-bottom: 4px;
+	margin: 0px;
 }
 
 	#name {
@@ -162,17 +206,7 @@ menu {
     padding: 0px 0px;
 	}
 
-	#info {
-		position: relative;
-		width:100%;
-		top:0%;
-		right:0;
-		text-align: center;
-		background-color: #e5e3d7;
-		border-bottom: 1px solid #eee;
-		margin: 0px auto;
-		padding: 5% 0%;
-	}
+
 
 .gal {
 	background-color: #fff;
@@ -180,97 +214,80 @@ menu {
 	margin: 0% auto;
 }
 
+
+#sldr {
+	position: absolute;
+	width: 100%;
+	height: 49%;
+	top: 0%;
+	right: 0%;
+	text-align: center;
+	padding: 0% 0px;
+	margin: 0px auto 70px;
+z-index: 9999}
+
+
 	#content {
-	width: 70%;
+	width: 100%;
 	text-align: center;
 	margin: 0px auto;
 	padding: 70px 0px;
+	background-color: #990000;
 }
 
 
-#nav{
-	position: relative;
-	width: 100%;
-	top:0px;
+/* NAV STYLES */
+
+.nav {
+  position:relative;
 	text-align: center;
-	background-color: rgba(30, 31, 41,1);
-	padding: 0px 0px;
+	width: 100%;
+	left:0%;
+	top:0px;
+	background-color: #000;
 	margin: 0px auto;
+	padding: 0px 0px;
 	z-index:999;
 }
 
+.nav a:link,
+.nav a:visited,
+.nav a:active {
+    display:inline-block;
+    width:100px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 400;
+    letter-spacing:2px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color:#f7f7f7;
+    margin: 0px 10px;
+    padding: 15px 0px;
+    -webkit-transition:all 1s ease;
+    -moz-transition:all 1s ease;
+    -o-transition:all 1s ease;
+    -ms-transition:all 1s ease;
+    transition:all 1s ease;
+  }
 
-	#nav2{
-		position:fixed;
-		width:72%;
-		left:13%;
-		top:0px;
-		text-align: center;
-		background-color: RGBA(30,31,41,0.6);
-		padding: 0px 0px;
-		margin: 0px auto;
-		z-index:9;
-	}
-
-
-#nav a:link,
-#nav a:visited,
-#nav a:active,
-#nav2 a:link,
-#nav2 a:visited,
-#nav2 a:active{
-	display:inline-block;
-	width: 120px;
-	font-family: 'Montserrat', sans-serif;
-	font-size: 8pt;
-	font-weight: 700;
-	line-height: 12px;
-	letter-spacing:5px;
-	text-align:center;
-	text-decoration:none;
-	text-transform:uppercase;
-	color:#f7f7f7;
-		-webkit-transition:all 1s ease;
-		-moz-transition:all 1s ease;
-		-o-transition:all 1s ease;
-		-ms-transition:all 1s ease;
-		transition:all 1s ease;
-	padding: 40px 0px 10px;
-	margin: 0px 20px 0px 20px;
-	cursor:help;
-	}
-
-	#nav2 a:link,
-	#nav2 a:visited,
-	#nav2 a:active{
-		font-size: 7pt;
-		font-weight: 600;
-		letter-spacing: 3px;
-		color:#ededed;
-		padding: 12px 0px;
-	}
-
-	#nav a:hover,
-	#nav2 a:hover {
-  		font-weight: 700;
-			letter-spacing: 6px;
-      cursor: help;
-			color:#f7f7f7;
-			background-color:transparent;
-			padding: 0px 0px;
-			margin: 0px 20px 0px 20px;
-		}
-
-		#nav2 a:hover {	color: #f7f7f7; letter-spacing: 5px;padding: 3px 0px; }
-
-		#nav a span {
-		display: block;
-		font-size: 5pt;
-		letter-spacing: 2px;
-		text-align: center;
-		color: #777;
-	margin: 0px 0px 0px;
+#nav a:hover {
+font-size: 0.4rem;
+font-weight: 400;
+letter-spacing: 5px;
+color:#fff;
+background-color: transparent;
+cursor:help;
 }
+
+  .nav-fixed {
+    position: fixed;
+    width: 76%;
+    left: 12%;
+    top: 0!important;
+  }
+
 
 
 		footer {

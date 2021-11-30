@@ -21,11 +21,8 @@
 	<script type='text/javascript' src="/site/suddenly/assets/js/ism-2.2.min.js"></script>
 	<script type='text/javascript' src='/site/suddenly/assets/js/jquery.ba-hashchange.min.js'></script>
 	<script type='text/javascript' src='/site/suddenly/assets/js/dynamicpage.js'></script>
-	<script type='text/javascript' src='/site/suddenly/assets/js/music.js'></script>
-	<script src="https://www.youtube.com/player_api"></script>
 
 	<link rel="stylesheet" type="text/css" href="/site/suddenly/assets/css/jquery.fancybox.css" media="screen" />
-	<script type="text/javascript" src="/site/suddenly/assets/js/jquery-1.10.1.min.js"></script>
 	<script type="text/javascript" src="/site/suddenly/assets/js/jquery.fancybox.js"></script>
 	<script type="text/javascript" src="/site/suddenly/assets/js/main.js"></script>
 
@@ -39,7 +36,7 @@
 			if ($(this).scrollTop() > 100) {
 			$('.nav').addClass('nav-fixed');
 		}
-
+		
 		else {
 			$('.nav').removeClass('nav-fixed');
 			}

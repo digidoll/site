@@ -47,11 +47,13 @@ a.slide_btn {
   -ms-transition: all 0.4s ease-in-out;
   -o-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
+    background-color: transparent;
 }
 
 .slide_btn.active, .slide_btn:hover {
   color: #111111;
   cursor: pointer;
+  background-color: transparent!important;
 }
 
 .directional_nav {

@@ -1,0 +1,127 @@
+@import 'https://fonts.googleapis.com/css?family=Sansita';
+@import 'https://fonts.googleapis.com/css?family=Didact+Gothic';
+@import 'https://fonts.googleapis.com/css?family=Great+Vibes';
+@import 'https://fonts.googleapis.com/css?family=Questrial';
+
+#wave {
+  position: relative;
+  width: 80%;
+  margin: 0px auto;
+  text-align: center;
+  padding: 80px 0px 80px 0px;
+}
+
+#New {
+  position: relative;
+  width: 100%;
+
+  left: 0;
+  margin: 0px auto;
+  text-align: center;
+}
+
+  #New.Main { top: 0px; }
+
+  #New #Display {
+    display: inline-block;
+    position: relative;
+    width: 160px;
+    height: 110px;
+    background-color: #fff!important;
+    border: 1px solid #e7e7e7;
+    z-index: 1;
+    margin: 20px 10px;
+    padding: 5px;
+    box-shadow: 0px 1px 3px 1px rgba(0,0,0,0.4);
+ }
+
+#Display .Inner {
+  position: relative;
+  width: 100%;
+  height: calc(100% - 35px);
+  top: 0;
+  left: 0;
+  color: #fff;
+  font: bold 11px Calibri;
+  text-transform: Uppercase;
+  text-align: center;
+  letter-spacing: 1.5px;
+  margin: 0px auto;
+  padding: 35px 0px 0px;
+  opacity: 0;
+  background-color: rgba(32, 32, 32, 0.8);
+  cursor: default;
+  -webkit-transition:all 0.5s ease-in-out;
+     -moz-transition:all 0.5s ease-in-out;
+      -ms-transition:all 0.5s ease-in-out;
+       -o-transition:all 0.5s ease-in-out;
+          transition:all 0.5s ease-in-out; }
+
+#Display .Inner:hover {
+  opacity: 1;
+  -webkit-transition:all 0.5s ease-in-out;
+     -moz-transition:all 0.5s ease-in-out;
+      -ms-transition:all 0.5s ease-in-out;
+       -o-transition:all 0.5s ease-in-out;
+          transition:all 0.5s ease-in-out; }
+
+#Display .Inner H1 {
+  position: relative;
+  font: bold 20px Calibri;
+  text-align: center;
+  line-height: 20px;
+  padding: 50px 0 0 0;
+  margin: 0px auto 0px;
+  cursor: default;
+}
+
+  #Display .Inner H1:before{ display: none; }
+
+  #Display .Inner H1.Pre {
+    font-family:'BenchNine', sans-serif;
+    font-weight:100;
+    font-size:16pt;
+    text-transform:uppercase;
+    letter-spacing:2px;
+    color:#fff;
+    text-align:center;
+    padding: 0px 0 0 0!important;
+    margin:0 auto;
+  }
+
+  #Display .Inner span {
+    display: block;
+    font-family:'BenchNine', sans-serif;
+    font-weight:100;
+    font-size:9pt;
+    text-transform:uppercase;
+    letter-spacing:2px;
+    color:#fff;
+    text-align:center;
+    padding: 5px 0 0 0!important;
+    margin:0 auto;
+  }
+
+  a.Zoom:link, a.Zoom:active, a.Zoom:visited {
+    position: relative;
+    color: #fff;
+    font-size: 15pt;
+    text-decoration: none;
+    padding: 0px;
+    margin: 0px auto;
+    opacity:1;
+    -webkit-transition:all 0.5s ease-in-out;
+       -moz-transition:all 0.5s ease-in-out;
+        -ms-transition:all 0.5s ease-in-out;
+         -o-transition:all 0.5s ease-in-out;
+            transition:all 0.5s ease-in-out; }
+
+  a.Zoom.Pre:link, a.Zoom.Pre:active, a.Zoom.Pre:visited { top: 0px; }
+  a.Zoom.Cus:link, a.Zoom.Cus:active, a.Zoom.Cus:visited { top: 0px; }
+
+
+  a.Zoom:hover, a.Form:hover {
+    font-size: 16pt;
+    color: #fff;
+    background-color: rgba(0, 0, 0,0.2);
+  }

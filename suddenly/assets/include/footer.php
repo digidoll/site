@@ -28,76 +28,107 @@
 </h1>
 </section>
 
-  <textarea><a href="rabbitdearr.com"><img source="https://via.placeholder.com/350x100/111111/1d1d1d"></a></textarea>
-
-<div id="outs">
-  <ul>
-    <a href=""> <i class="fab fa-deviantart"></i> </a>
-    <a href=""> <i class="fab fa-github-alt"></i> </a>
-    <a href=""> <i class="fab fa-tumblr"></i> </a>
-    <a href=""> <i class="fab fa-linkedin-in"></i> </a>
-  </ul>
-</div>
+  <textarea class="ft"><a href="rabbitdearr.com"><img source="https://via.placeholder.com/350x100/111111/1d1d1d"></a></textarea>
 
 <footer>Design and Coding by <a href="#" target="_blank">digidoll</a> | <a href="#" target="_blank">rabbitdearr</a> &copy; 2013 - 2020 | All Rights Reserved</footer>
 
 </div>
 
-<script type="text/javascript">
-filterSelection("all")
-function filterSelection(c) {
-  var x, i;
-  x = document.getElementsByClassName("filterDiv");
-  if (c == "all") c = "";
-  for (i = 0; i < x.length; i++) {
-    w3RemoveClass(x[i], "show");
-    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
-  }
-}
 
-function w3AddClass(element, name) {
-  var i, arr1, arr2;
-  arr1 = element.className.split(" ");
-  arr2 = name.split(" ");
-  for (i = 0; i < arr2.length; i++) {
-    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
-  }
-}
+<script src="https://npmcdn.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+<script>
+// init Isotope
+var initial_items = 5;
+var next_items = 5;
+var $grid = $('#grid').isotope({
+    itemSelector: '.element-item',
+    layoutMode: 'masonry',
+    stamp: '.element-item--static'
+});
 
-function w3RemoveClass(element, name) {
-  var i, arr1, arr2;
-  arr1 = element.className.split(" ");
-  arr2 = name.split(" ");
-  for (i = 0; i < arr2.length; i++) {
-    while (arr1.indexOf(arr2[i]) > -1) {
-      arr1.splice(arr1.indexOf(arr2[i]), 1);
+
+// bind filter button click
+$('.button-group-home').on('click', 'button', function () {
+    var filterValue = $(this).attr('data-filter');
+    // use filterFn if matches value
+    $grid.isotope({filter: filterValue});
+    updateFilterCounts();
+});
+function updateFilterCounts() {
+    // get filtered item elements
+    var itemElems = $grid.isotope('getFilteredItemElements');
+    var count_items = $(itemElems).length;
+
+    if (count_items > initial_items) {
+        $('#showMore').show();
     }
-  }
-  element.className = arr1.join(" ");
-}
+    else {
+        $('#showMore').hide();
+    }
+    if ($('.element-item').hasClass('visible_item')) {
+        $('.element-item').removeClass('visible_item');
+    }
+    var index = 0;
 
-// Add active class to the current button (highlight it)
-var btnContainer = document.getElementById("myBtnContainer");
-var btns = btnContainer.getElementsByClassName("btn");
-for (var i = 0; i < btns.length; i++) {
-  btns[i].addEventListener("click", function(){
-    var current = document.getElementsByClassName("active");
-    current[0].className = current[0].className.replace(" active", "");
-    this.className += " active";
-  });
+    $(itemElems).each(function () {
+        if (index >= initial_items) {
+            $(this).addClass('visible_item');
+        }
+        index++;
+    });
+    $grid.isotope('layout');
 }
+// change is-checked class on buttons
+$('.button-group-home').each(function (i, buttonGroup) {
+    var $buttonGroup = $(buttonGroup);
+    $buttonGroup.on('click', 'button', function () {
+        $buttonGroup.find('.is-checked').removeClass('is-checked');
+        $(this).addClass('is-checked');
+    });
+});
+
+function showNextItems(pagination) {
+    var itemsMax = $('.visible_item').length;
+    var itemsCount = 0;
+    $('.visible_item').each(function () {
+        if (itemsCount < pagination) { $(this).removeClass('visible_item'); itemsCount++; } }); if (itemsCount >= itemsMax) {
+        $('#showMore').hide();
+    }
+    $grid.isotope('layout');
+}
+// function that hides items when page is loaded
+function hideItems(pagination) {
+    var itemsMax = $('.element-item').length;
+    var itemsCount = 0;
+    $('.element-item').each(function () {
+        if (itemsCount >= pagination) {
+            $(this).addClass('visible_item');
+        }
+        itemsCount++;
+    });
+    if (itemsCount < itemsMax || initial_items >= itemsMax) {
+        $('#showMore').hide();
+    }
+    $grid.isotope('layout');
+}
+$('#showMore').on('click', function (e) {
+    e.preventDefault();
+    showNextItems(next_items);
+});
+hideItems(initial_items);
+
 </script>
 
 <script>
   window.console = window.console || function(t) {};
 </script>
-
 <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
 <script>
   if (document.location.search.match(/type=embed/gi)) {
     window.parent.postMessage("resize", "*");
   }
 </script>
+
 
 </body>
 </html>

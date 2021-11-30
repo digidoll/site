@@ -32,8 +32,6 @@
 <div id="back-to-top"><a href="">Back To Top</a></div>
 <div class="all">
 
-
-
 	<div id="proceed">
 			<a href="#"> username</a>
 		</div>
@@ -45,48 +43,47 @@
 		<a href="#">block</a>
 		<a href="#">report</a>
 	</div>
-<!--
-	<nav>
-			<h6>Navigation.</h6>
-	    		<a href="index.php"> index <span> homepage </span> </a>
-	        <a href="about.php"> biography <span> about me </span> </a>
-					<a href="friends.php"> link <span> extra content </span> </a>
-	        <a href="love.php"> link <span> extra content </span> </a>
-	        <a href="support.php"> link <span> extra content </span> </a>
-	        <a href="extra.php"> link <span> extra content </span> </a>
-					<a href="extra.php"> link <span> extra content </span> </a>
 
-	<h6>Music.</h6>
-	<div id="music">
-		<div class="youtubebox">
-			<iframe allow="autoplay" width="250" height="250" src="https://www.youtube.com/embed/xcbhnE_7lrw?enablejsapi=1&amp;fs=0&amp;rel=0&amp;showinfo=0&amp;modestbranding=1&amp;iv_load_policy=3&amp;controls=0&amp;autoplay=0&amp;loop=0" onload="codes_9Id5q=new YT.Player(this,{events:{'onStateChange':function(event){if(event.data==1){toggleButtonPlayer_9Id5q(document.getElementById('playbutton'))}}}})"></iframe>
-		</div>
-
-		<button type="button" class="playerbutton" id="playbutton" onclick="codes_9Id5q.playVideo();toggleButtonPlayer_9Id5q(this)">
-			<img src="/site/argo/assets/img/play.png">
-		</button>
-		<button type="button" class="playerbutton" id="pausebutton" onclick="codes_9Id5q.pauseVideo();toggleButtonPlayer_9Id5q(this)" style="display:none">
-			<img src="/site/argo/assets/img/pause.png">
-		</button>
-		<div class="preload_box"><img src="/site/argo/assets/img/play.png"><img src="/site/argo/assets/img/pause.png"></div>
-	</div>
-	</nav>
--->
 
 
 
 <header>
 
-
+<div id="top">
 <div id="overlay"></div>
 <div id="logo">
 <img src="/site/argo/assets/img/logo.png">
-<h5> username
+<h5> brand
 <span> design & development <span> </h5>
+</div>
 </div>
 </header>
 
+<nav>
+		<h6>Navigation.</h6>
+				<a href="index.php"> index <span> homepage </span> </a>
+				<a href="about.php"> biography <span> about me </span> </a>
+				<a href="friends.php"> link <span> extra content </span> </a>
+				<a href="love.php"> link <span> extra content </span> </a>
+				<a href="support.php"> link <span> extra content </span> </a>
+				<a href="extra.php"> link <span> extra content </span> </a>
+				<a href="extra.php"> link <span> extra content </span> </a>
 
+<h6>Music.</h6>
+<div id="music">
+	<div class="youtubebox">
+		<iframe allow="autoplay" width="250" height="250" src="https://www.youtube.com/embed/xcbhnE_7lrw?enablejsapi=1&amp;fs=0&amp;rel=0&amp;showinfo=0&amp;modestbranding=1&amp;iv_load_policy=3&amp;controls=0&amp;autoplay=0&amp;loop=0" onload="codes_9Id5q=new YT.Player(this,{events:{'onStateChange':function(event){if(event.data==1){toggleButtonPlayer_9Id5q(document.getElementById('playbutton'))}}}})"></iframe>
+	</div>
+
+	<button type="button" class="playerbutton" id="playbutton" onclick="codes_9Id5q.playVideo();toggleButtonPlayer_9Id5q(this)">
+		<img src="/site/argo/assets/img/play.png">
+	</button>
+	<button type="button" class="playerbutton" id="pausebutton" onclick="codes_9Id5q.pauseVideo();toggleButtonPlayer_9Id5q(this)" style="display:none">
+		<img src="/site/argo/assets/img/pause.png">
+	</button>
+	<div class="preload_box"><img src="/site/argo/assets/img/play.png"><img src="/site/argo/assets/img/pause.png"></div>
+</div>
+</nav>
 
 
 

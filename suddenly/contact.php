@@ -4,17 +4,30 @@
  ?>
 
 <h1> contact <hr> </h1>
-<div class="email">
-<div id="content">
-  <form method="post" name="myemailform" action="form-to-email.php">
-Name:	<input type="text" name="name">
-Email Address:	<input type="text" name="email">
-Phone Number:	<input type="text" name="phone">
-Barbershop:	<input type="text" name="shop">
-Tell us about your needs:	<textarea name="message"></textarea>
-<input type="submit" value="Send Form">
+
+
+<form action="assets/include/mail.php" method="POST">
+<p>Name <input type="text" name="name"></p>
+<p>Email <input type="text" name="email"></p>
+
+
+<p>Type
+<select name="type" size="1">
+<option value="update">Website Update</option>
+<option value="change">Information Change</option>
+<option value="addition">Information Addition</option>
+<option value="new">New Products</option>
+</select></p>
+
+
+<p>Message</p>
+<textarea name="message" class="msg" rows="8" cols="28"></textarea>
+<br />
+<br />
+<input type="submit" value="Send"><input type="reset" value="Clear">
 </form>
-</div>
+
+
 
 <?php
 require_once( 'assets/include/footer.php' );

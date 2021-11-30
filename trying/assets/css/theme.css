@@ -110,7 +110,7 @@ header blockquote:before {
 	left: 0%;
 	top: 0%;
 	width: 69%;
-	padding: 2% 20px;
+	padding: 2% 2%;
 	margin: 0% auto;
 	z-index: 999;
 }
@@ -126,8 +126,8 @@ header blockquote:before {
 	#avi {
 	display: block;
 	position: relative;
-	width: 160px;
-	height: 220px;
+text-align: center;
+
 border: 1px solid #111;
 	padding: 0px;
 	margin: 1px auto 20px;
@@ -150,7 +150,7 @@ border: 1px solid #111;
 	nav a:active,
 	nav a:visited {
 		display: block;
-		width: 89%;
+		width: 100%;
 		height: 10px;
 		padding: 10px 0px;
 		margin: 1px 0px 0px 0px;
@@ -158,6 +158,7 @@ border: 1px solid #111;
 		font-family: arial;
 			font-size: 7px;
 			font-weight: normal;
+			text-indent: 30px;
 		text-decoration: none;
 		text-transform: uppercase;
 		text-align: left;
@@ -169,14 +170,14 @@ border: 1px solid #111;
 		 -o-transition: all 0.3s ease;
 		 -ms-transition: all 0.3s ease;
 		 transition: all 0.3s ease;
-		padding: 35px 0px 30px 30px;
+		padding: 35px 0px 30px 0px;
  		margin: 1px 0px;
 		z-index: 999;
 	}
 
 		nav a:hover{
 			text-align: left;
-			text-indent: 20px;
+			text-indent: 50px;
 			color: #181616;
 			letter-spacing: 2pt;
 			word-spacing: 4pt;
@@ -338,39 +339,50 @@ nav h5 {
 	position: relative;
 	bottom: 0%!important;
 	width: 100%;
-	background-color: transparent;
-	padding: 0px;
+	height: 38%;
+	padding: 0px 0px;
 	margin: 0px auto 20px;
 	z-index: 999;
+}
+
+.btm {
+	position: relative;
+	float: right;
+	width: calc(44%);
+	height: 100%;
+	padding: 0px 0px;
+		margin: 0px 2% 0px 0px;
 }
 
 #uts {
 	position: relative;
 	float: left;
 	width: 50%;
-	height: 38%;
+	height: 100%;
 	left: 0%;
 	top: 0%;
 	padding: 0px;
-	border: 1px solid #000;
-	margin: 0px 0px 0px 20px;
+
+	margin: 0px 0px 0px 2%;
 }
 
 .menu2 {
 	position: relative;
 	display: inline-block;
-	float: right;
+	width: 100%;
+	height: 10%;
 	top: 0%;
-	background-color: transparent;
+	right: 0px;
 	text-align: center;
-	padding: 0px 0px;
-	margin: 0px 2% 0px 0px;
+		padding: 0px;
+	margin: 0px 0% 0% 0px;
 	z-index: 999;
+
 }
 
 .menu2 a {
 	display: inline-block;
-	width: 175px;
+	width: calc(100% / 3 - 2px);
 	text-align: center;
 	font-family: arial;
 	font-size: 5pt;
@@ -401,15 +413,15 @@ nav h5 {
 }
 
 #ex {
-	float: right;
-	width: 42%;
-	height: 30%;
+	display: inline-block;
+	position: relative;
+	width: calc(100% - 20px);
+	height: calc(88% - 20px);
 	right: 0px;
-	bottom: 0%;
+	top: 2%;
 	background-color: #201f1d;
-	border: 1px solid #111;
-	padding: 5px 10px 9px;
-	margin: 10px 2% 0px 0px;
+	padding: 10px 10px;
+
 }
 
 		footer {

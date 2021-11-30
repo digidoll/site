@@ -3,39 +3,28 @@
  require_once( 'assets/include/header.php' );
  ?>
 
+<div id="info">
+  <div class="slider">
+    <div class="slide_viewer">
+      <div class="slide_group">
+        <div class="slide">
+          <img src="https://via.placeholder.com/800x350/090909/ededed">
+        </div>
+        <div class="slide">
+          <img src="https://via.placeholder.com/800x350/ededed/181715">
+        </div>
+        <div class="slide">
+          <img src="https://via.placeholder.com/800x350/333333/ededed">
+        </div>
+      </div>
+    </div>
+  </div>
 
- <div id="info">
-   <blockquote>
-     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ac feugiat velit, varius malesuada dui."
-   </blockquote>
-      <hr>
- </div>
+  <div class="slide_buttons">
+  </div>
+</div>
 
-
-<div class="gal">
-          <div class="container">
-              <div class="gallery">
-                  <figure class="gallery__item gallery__item--1">
-                      <img src="https://via.placeholder.com/388x388/e5e5e5/ffffff.png" alt="Gallery image 1" class="gallery__img">
-                  </figure>
-                  <figure class="gallery__item gallery__item--2">
-                      <img src="https://via.placeholder.com/388x184/bfc3ca/ffffff.png" alt="Gallery image 2" class="gallery__img">
-                  </figure>
-                 <figure class="gallery__item gallery__item--3">
-                      <img src="https://via.placeholder.com/234x184/e5e5e5/ffffff.png" alt="Gallery image 3" class="gallery__img">
-                  </figure>
-                   <figure class="gallery__item gallery__item--4">
-                      <img src="https://via.placeholder.com/234x184/e5e5e5/ffffff.png" alt="Gallery image 4" class="gallery__img">
-                  </figure>
-                  <figure class="gallery__item gallery__item--5">
-                      <h6> Lorem Ipsum. </h6>
-                  </figure>
-              </div>
-          </div>
- </div>
-
-
-
+<!--
 <div id="content">
 
 <h1> index </h1>

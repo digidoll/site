@@ -14,39 +14,41 @@ body {
 	font-size:10px;
 	font-weight:400;
 	color:#0b0b0b;
-	background-color: #222;
+	background-color: #0e0e0e;
+	overflow: auto;
+	margin: 0px;
+	padding: 0px;
 }
 
 .all {
   position: relative;
   width:76%;
 	height:auto;
-	top:6%;
+	top:0%;
 	padding: 0px;
   margin: 0px auto 0%;
 	min-height: 1100px;
-	background-color: #090909!important;
+	background-color: #090909;
 }
 
 header {
 	position: relative;
 	width:100%;
-	top:10%;
+	top:0px;
 	left:0;
 	text-align: center;
-	background-color:#111111;
-	background-image: url("/site/area51/assets/img/banner.png");
-	background-repeat: repeat;
+	background-color:#090909;
+	background-image: url('/site/suddenly/assets/img/concrete.png');
+	background-position: top-left;
 	margin: 0px auto;
-	padding: 13% 0% 1%;
+	padding: 3% 0%;
 	z-index:999;
 }
 
 #main-content{
 	position: relative;
 	width:100%;
-	float: right;
-	right: 0px;
+	left: 0px;
 	top: 0%;
 	background-color: #fff;
 	padding: 0px 0px 0px;
@@ -56,7 +58,7 @@ header {
 	#home{
 		width: 100%;
 		left: 0%;
-		background-color:#f7f7f7;
+		background-color:#f9f9f9;
 		margin: 0px auto;
 		padding: 0px 0px 0px 0px;
 	}
@@ -66,108 +68,123 @@ header {
 		text-align: center;
 		margin: 0px auto;
 		padding: 70px 0px;
+		background-color: #f9f9f9;
 	}
 
 
-	#logo {
-		position: relative;
-		width: 25%;
-		float: left;
-	}
 
-	#logo h5 {
-		font-family: 'roboto', sans-serif;
-		font-size: 1.3em;
-		font-weight: 300;
-		line-height: 20px;
-		letter-spacing: 6px;
-		text-transform: uppercase;
-		text-align: justify;
-		color: #f7f7f7;
-		margin: 0px auto;
-		padding: 0px 0px 0px 10%;
-		cursor: default;
-	}
+		#logo {
+			position: relative;
+			width: 25%;
+			text-align: center;
+			margin: 0px auto;
+		}
 
-	#logo h5 span {
-		display: block;
-		font-family: 'Barlow Condensed', sans-serif;
-		color: #aaa;
-		font-size: 0.5rem;
-		text-align: justify;
-		font-weight: 400;
-		line-height: 12pt;
-		letter-spacing: 3px;
-		text-transform: uppercase;
-		padding-bottom: 4px;
-		margin: 0px;
-	}
+		#logo img {
+			float: left;
+			border: 2px solid #f7f7f7;
+			border-radius: 50px;
+			padding: 10px;
+			margin: 0px 20px 0px 0px;
+		}
+
+		#logo h5 {
+			font-family: 'roboto', sans-serif;
+			font-size: 1.3em;
+			font-weight: 300;
+			line-height: 20px;
+			letter-spacing: 6px;
+			text-transform: uppercase;
+			text-align: justify;
+			color: #f7f7f7;
+			margin: 10px auto;
+			padding: 15px 0px 0px;
+			cursor: default;
+		}
+
+		#logo h5 span {
+			display: block;
+			font-family: 'Barlow Condensed', sans-serif;
+			color: #aaa;
+			font-size: 0.5rem;
+			text-align: justify;
+			font-weight: 400;
+			line-height: 12pt;
+			letter-spacing: 3px;
+			text-transform: uppercase;
+			padding-bottom: 4px;
+			margin: 0px;
+		}
 
 #back-to-top { position: fixed; float: right; right: 0%; bottom: 0px; margin: 0px 20px 20px 0px; }
 #back-to-top a { font-size: 5pt; font-weight: 100; letter-spacing: 1px;color: #555; border: 1px solid #222; padding: 10px; }
 #back-to-top a:hover { font-weight: 100; color:#aaa; background-color: transparent; border:1px solid #555; }
 
 
-
 /* NAV STYLES */
 
-#nav{
-	position:relative;
-	text-align: left;
+nav {
+  position:relative;
+	text-align: center;
 	width: 100%;
 	left:0%;
 	top:0px;
-	background-color: #111;
-	border-top: 1px solid #1b1b1b;
+	background-color: #000;
 	margin: 0px auto;
 	padding: 0px 0px;
 	z-index:999;
 }
 
-#nav2 {position:fixed;width:76%;top:0;text-align:center;background-color:#000;padding: 0px 0px;margin:0px auto;z-index: 9;}
+nav a:link,
+nav a:visited,
+nav a:active {
+    display:inline-block;
+    width:100px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.6rem;
+    font-weight: 400;
+    letter-spacing:2px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color:#f7f7f7;
+    margin: 0px 10px;
+    padding: 15px 0px;
+    -webkit-transition:all 1s ease;
+    -moz-transition:all 1s ease;
+    -o-transition:all 1s ease;
+    -ms-transition:all 1s ease;
+    transition:all 1s ease;
+  }
 
-	#nav a:link,
-	#nav a:visited,
-	#nav a:active,
-	#nav2 a:link,
-	#nav2 a:visited,
-	#nav2 a:active{
-			display:inline-block;
-			width:100px;
-			font-family: arial;
-			font-size: 7px;
-			font-weight: normal;
-			letter-spacing:2px;
-			text-align: center;
-			text-decoration: none;
-			text-transform: uppercase;
-			color:#f7f7f7;
-			background-color: transparent;
-			margin: 0px 0px;
-			padding: 25px 0px;
-			-webkit-transition:all 1s ease;
-			-moz-transition:all 1s ease;
-			-o-transition:all 1s ease;
-			-ms-transition:all 1s ease;
-			transition:all 1s ease;
-		}
-
-#nav a:hover,#nav2 a:hover {
-	font-weight: 400;
-	letter-spacing: 5px;
-	color:#fff;
-	background-color: transparent;
-	cursor:help;
+nav a:hover {
+font-size: 0.4rem;
+font-weight: 400;
+letter-spacing: 5px;
+color:#fff;
+background-color: transparent;
+cursor:help;
 }
 
 
 /* FOOTER STYLES */
 
+#info {
+	position: relative;
+	width:100%;
+	top:0%;
+	right:0;
+	text-align: center;
+	background-color: #f2f1ea;
+	border-bottom: 1px solid #eee;
+	margin: 0px auto;
+	padding: 8% 0%;
+}
+
 #sldr {
 	position: relative;
-	float: right;
-	width: 100%;
-	height: 49%;
+	width: 70%;
+	height: 50%;
 	top: 0%;
 	right: 0%;
 	background-color:#0e0e0e;
@@ -176,7 +193,7 @@ header {
 	background-repeat: repeat;
 	text-align: center;
 	padding: 0% 0px;
-	margin: 0px auto 70px; }
+	margin: 0px auto 0px; }
 
 	#contact {
 		display: inline-block;

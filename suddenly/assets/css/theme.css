@@ -27,6 +27,7 @@ body {
   margin: 0px auto;
 	min-height: 1100px;
 	background-color: #090909!important;
+
 }
 
 header {
@@ -128,8 +129,8 @@ header {
 
 /* NAV STYLES */
 
-#nav{
-	position:relative;
+.nav {
+  position:relative;
 	text-align: center;
 	width: 100%;
 	left:0%;
@@ -140,41 +141,44 @@ header {
 	z-index:999;
 }
 
-#nav2 {position:fixed;width:76%;top:0;text-align:center;background-color:#000;padding: 0px 0px;margin:0px auto;z-index: 9;}
+.nav a:link,
+.nav a:visited,
+.nav a:active {
+    display:inline-block;
+    width:100px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.6rem;
+    font-weight: 400;
+    letter-spacing:2px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color:#f7f7f7;
+    margin: 0px 10px;
+    padding: 15px 0px;
+    -webkit-transition:all 1s ease;
+    -moz-transition:all 1s ease;
+    -o-transition:all 1s ease;
+    -ms-transition:all 1s ease;
+    transition:all 1s ease;
+  }
 
-	#nav a:link,
-	#nav a:visited,
-	#nav a:active,
-	#nav2 a:link,
-	#nav2 a:visited,
-	#nav2 a:active{
-			display:inline-block;
-			width:100px;
-			font-family: 'Montserrat', sans-serif;
-			font-size: 0.6rem;
-			font-weight: 400;
-			letter-spacing:2px;
-			text-align: center;
-			text-decoration: none;
-			text-transform: uppercase;
-			color:#f7f7f7;
-			margin: 0px 10px;
-			padding: 15px 0px;
-			-webkit-transition:all 1s ease;
-			-moz-transition:all 1s ease;
-			-o-transition:all 1s ease;
-			-ms-transition:all 1s ease;
-			transition:all 1s ease;
-		}
-
-#nav a:hover,#nav2 a:hover {
-	font-size: 0.4rem;
-	font-weight: 400;
-	letter-spacing: 5px;
-	color:#fff;
-	background-color: transparent;
-	cursor:help;
+#nav a:hover {
+font-size: 0.4rem;
+font-weight: 400;
+letter-spacing: 5px;
+color:#fff;
+background-color: transparent;
+cursor:help;
 }
+
+  .nav-fixed {
+    position: fixed;
+    width: 80%;
+    left: 10%;
+    top: 0!important;
+		margin: 0px auto;
+  }
 
 
 /* FOOTER STYLES */
@@ -183,7 +187,7 @@ header {
 	position: relative;
 	float: right;
 	width: 100%;
-	height: 56%;
+	height: 45%;
 	top: 0%;
 	right: 0%;
 	background-color:#0e0e0e;
@@ -192,7 +196,8 @@ header {
 	background-repeat: repeat;
 	text-align: center;
 	padding: 0% 0px;
-	margin: 0px auto 0px; }
+	margin: 0px auto 0px;
+z-index: 999;}
 
 	#outs {
 		display: inline-block;
@@ -201,7 +206,7 @@ header {
 		width: 100%;
 		height: 50px;
 		padding: 0px 0px;
-		background-color: #e0e0e0;
+		background-color: #090909;
 		text-align: right;
 	}
 
@@ -222,7 +227,7 @@ header {
 		#outs i {
 			font-size: 16pt;
 			line-height: 14px;
-			color: #000;
+			color: #f7f7f7;
 		}
 
 		#outs a {
@@ -338,6 +343,9 @@ footer {
 @media only screen and (max-width: 800px) {
 	body { overflow-x: hidden; }
 
+.nav {
+	display: none;
+}
 .all {
 	width: 100%;
 	left: 0%;

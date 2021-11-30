@@ -1,0 +1,102 @@
+	
+	nav a:link,
+	nav a:active,
+	nav a:visited {
+		display: block;
+		width: 212px;
+		padding: 10px 0px;
+		margin: 1px 0px 0px 0px;
+		text-decoration: none;
+		text-transform: uppercase;
+		text-align: center;
+		font-family: arial;
+		font-size: 7px;
+		font-weight: normal;
+		color: #cecece;
+		letter-spacing: 1px;
+		background-color: #111;
+		 -webkit-transition: all 1s ease;
+		 -moz-transition: all 1s ease;
+		 -o-transition: all 1s ease;
+		 -ms-transition: all 1s ease;
+		 transition: all 1s ease;
+		z-index: 999;
+	}	
+
+		nav a:hover{
+		letter-spacing: 3px;
+		background-color: #4b4b4b;
+		color: #ededed;
+		border-top-left-radius: 10px;
+		border-bottom-right-radius: 10px;
+	}
+	
+	
+		#sub {
+
+			line-height: 0px;
+			width: 200px;
+			margin: 3px 0px;
+			 -webkit-transition: all 1s ease;
+			 -moz-transition: all 1s ease;
+			 -o-transition: all 1s ease;
+			 -ms-transition: all 1s ease;
+			 transition: all 1s ease;
+			z-index: 999;
+		}
+		
+		#sub:hover span {
+			line-height: 1px;
+			height: 100%;
+			 -webkit-transition: all 1s ease;
+			 -moz-transition: all 1s ease;
+			 -o-transition: all 1s ease;
+			 -ms-transition: all 1s ease;
+			 transition: all 1s ease;
+		}
+		
+		#sub span a:link {
+			line-height: 0px;
+			opacity: 0;
+			padding: 0px 0px 0px 0px;
+			z-index: 999;
+		}
+		
+		#sub:hover span a:link {
+			line-height: 10px;
+			opacity: 100;
+			padding: 5px 0px 5px 0px;
+		}
+
+
+h2 {
+	width: 75%; 
+	height: 10px; 
+	color: #000; 
+	text-decoration: none; 
+	text-transform: uppercase; 
+	border: 1px solid #4b4b4b;
+	font-family: arial;
+	font-size: 7px;
+	font-weight: normal;
+	letter-spacing: 2px;
+	margin: 0px 0px 0px;
+	text-align: left;
+	background-color: #ededed;
+	line-height: 0px;
+	padding: 30px 30px 25px;
+	z-index: 9999;
+}
+
+h2:after {
+	content: "...";
+	width: 30px;
+	height: 10px;
+	color: #ededed;
+	background-color: #111!important;
+	font-size: 20pt;
+	float: right;
+	margin: -30px;
+	padding: 28px 20px;
+	z-index: 999;
+}

@@ -1,0 +1,222 @@
+menu@charset "utf-8";
+/* CSS Document */
+
+@import url('http://fonts.googleapis.com/css?family=Roboto:100,200,300,400');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Barlow+Condensed:100,200,300,400&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Teko:200,300,400,500,600,700,800');
+
+
+body {
+	background-color: #ededed;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #f9f9f9;
+	background-position: top left;
+	background-repeat: no-repeat;
+}
+
+.all {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+  width: 100%;
+	height: 100%;
+	text-align: center;
+
+}
+
+header {
+	position: fixed;
+	width:100%;
+	height: 100%;
+	background-image: url("/site/ice/assets/img/1519799120237.jpg");
+	background-size: cover;
+}
+.left {
+	position: fixed;
+  width: 16%;
+	top: 0px;
+	left: 0px;
+  float:left;
+	height: 100%;
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.85);
+	border-right: 1px solid #000;
+	box-shadow: 2px 0px 5px #262626;
+  padding: 0px 2%;
+  z-index: 999;
+}
+
+#logo {
+	position: relative;
+
+			top: 0px;
+			left: 0%;
+			color: #566692;
+			font-family: arial;
+			font-size: 10pt;
+
+			letter-spacing: 2px;
+			text-transform: uppercase;
+			line-height: 20px;
+			border: 1px solid #dfdfdf;
+			padding: 10px 0px 5px;
+			margin: 25% auto 0px;
+			text-align: center;
+				z-index: 999;
+}
+
+#logo span {
+	display: block;
+	font-family: arial;
+	font-size: 5pt;
+	font-weight: 100;
+	color: #c2c2c2;
+	margin: -5px 0px 0px;
+}
+
+#tag {
+	display: block;
+	width: 110px;
+	font-family: arial;
+	font-size: 5pt;
+	font-weight: 600;
+	letter-spacing: 2px;
+	color: #636363;
+	margin: -7px auto 0px;
+	padding: 0px;
+}
+
+
+menu {
+	display: inline-block;
+	width: 100%;
+	margin: 0px auto 30px;;
+	text-align: center;
+	padding: 30px 0px;
+	border-bottom: 1px double #dfdfdf;
+}
+
+menu i {
+	display: inline-block;
+	width: 15px;
+	font-size: 10pt;
+	color: #566692;
+	background-color: transparent;
+	border: 1px solid #dfdfdf;
+	padding: 5px;
+	margin: 0px 5px;
+	-webkit-transition:all 0.6s ease;
+	-moz-transition:all 0.6s ease;
+	-o-transition:all 0.6s ease;
+	-ms-transition:all 0.6s ease;
+	transition:all 0.6s ease;
+}
+
+menu i:hover {
+	color: #b1b2b7;
+	background-color: #3b3e4b;
+	border: 1px solid #566692;
+	-webkit-transition:all 0.6s ease;
+	-moz-transition:all 0.6s ease;
+	-o-transition:all 0.6s ease;
+	-ms-transition:all 0.6s ease;
+	transition:all 0.6s ease;
+}
+
+menu a, menu a:hover {
+	text-decoration: none;
+	background-color: transparent;
+}
+
+
+
+#main-content{
+	position: relative;
+  width: 80%;
+	height: auto;
+	float: right;
+	right: 0px;
+	top: 0%;
+  color: #000;
+	background-color: #f7f7f7;
+	margin: 0px;
+	z-index: 99;
+}
+
+	#home{
+		width: 80%;
+		left: 0%;
+		background-color:#f7f7f7;
+		margin: 0px auto;
+		padding: 50px 0px;
+		text-align: justify;
+	}
+
+	nav {
+		width: 90%;
+	left: 0px!important;
+	top:0%;
+	height: auto;
+	background-color: transparent;
+	padding: 0px;
+	margin: 0px auto;
+	z-index:3;
+}
+
+
+nav a:link,
+nav a:active,
+nav a:visited {
+	display: block;
+	height: 10px;
+	font: normal 10px small fonts;
+	font-family: arial;
+		font-size: 7px;
+		font-weight: normal;
+text-indent: 20px;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: left;
+	letter-spacing: 2px;
+	color: #3a5797;
+	background-color: transparent;
+	border-bottom: 1px solid #515151;
+	 -webkit-transition: all 0.3s ease;
+	 -moz-transition: all 0.3s ease;
+	 -o-transition: all 0.3s ease;
+	 -ms-transition: all 0.3s ease;
+	 transition: all 0.3s ease;
+	padding: 20px 0px;
+	margin: 1px 0px;
+	z-index: 999;
+}
+
+	nav a:hover{
+		text-align: left;
+		text-indent: 40px;
+		color: #a5a5a5;
+		letter-spacing: 2pt;
+		word-spacing: 4pt;
+		background-color: rgba(0, 0, 0, 0.4);
+	transition: all 0.6s ease-in-out;
+	-moz-transition: all .6s ease-in-out;
+	-webkit-transition: all .6s ease-in-out;
+	cursor: crosshair;
+}
+
+nav a span {
+	display: block;
+	color: #a5a5a5;
+}
+
+nav a:hover span {
+	color: #3a5797;
+}
+
+
+::-webkit-scrollbar {		width:7px; }
+::-webkit-scrollbar-track {		background-color:#000; }
+::-webkit-scrollbar-thumb {		background-color:#ededed; }
+::-webkit-scrollbar:horizontal {		height:0; }

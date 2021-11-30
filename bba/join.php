@@ -40,22 +40,47 @@
 <div id="guts">
 <div id="home">
 
-<h2> APPLICATION FOR MEMBERSHIP </h2>
 
+<h2> APPLICATION FOR MEMBERSHIP </h2>
 <div class="join">
   <h3> PLEASE SUBMIT THE FORM BELOW AND THEN HIT SUBSCRIBE TO PAY</h3>
 
 <form method="post" name="myemailform" action="form-to-email.php">
-Name:	<input type="text" name="name">
-Email Address:	<input type="text" name="email">
-Phone Number:	<input type="text" name="phone">
-Barbershop:	<input type="text" name="shop">
-Tell us about your needs:	<textarea name="message"></textarea>
+<p>Name:</p>	<input type="text" name="name">
+<p>Email Address:</p>	<input type="text" name="email">
+<p>Phone Number:</p>	<input type="text" name="phone">
+<p>Barbershop:</p>	<input type="text" name="shop">
+<p>Tell us about your needs:</p>	<textarea name="message"></textarea>
 <input type="submit" value="Send Form">
 </form>
+
+<div class="sub">
+<b>Membership Options</b>
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_xclick-subscriptions">
+<input type="hidden" name="business" value="digi-doll@hotmail.com">
+<input type="hidden" name="lc" value="US">
+<input type="hidden" name="item_name" value="Membership Options">
+<input type="hidden" name="no_note" value="1">
+<input type="hidden" name="src" value="1">
+<input type="hidden" name="currency_code" value="USD">
+<input type="hidden" name="bn" value="PP-SubscriptionsBF:btn_subscribeCC_LG.gif:NonHostedGuest">
+<table>
+<tr><td><input type="hidden" name="on0" value=""></td></tr><tr><td><select name="os0">
+	<option value="Annual Membership">Annual Membership : $250.00 USD - yearly</option>
+	<option value="Monthly Membership">Monthly Membership : $25.00 USD - monthly</option>
+</select> </td></tr>
+</table>
+<input type="hidden" name="option_select0" value="Annual Membership">
+<input type="hidden" name="option_amount0" value="250.00">
+<input type="hidden" name="option_period0" value="Y">
+<input type="hidden" name="option_frequency0" value="1">
+<input type="hidden" name="option_select1" value="Monthly Membership">
+<input type="hidden" name="option_amount1" value="25.00">
+<input type="hidden" name="option_period1" value="M">
+<input type="hidden" name="option_frequency1" value="1">
+<input type="hidden" name="option_index" value="0">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_subscribeCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
 </div>
-
-
-  <?php
-  require_once( 'assets/include/footer.php' );
-  ?>

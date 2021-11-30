@@ -8,7 +8,7 @@
    <div class="slide_viewer">
      <div class="slide_group">
        <div class="slide">
-         <img src="https://via.placeholder.com/800x350/0e0e0e/ededed">
+         <img src="https://via.placeholder.com/800x350/090909/ededed">
        </div>
        <div class="slide">
          <img src="https://via.placeholder.com/800x350/ededed/181715">

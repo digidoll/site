@@ -1,0 +1,28 @@
+
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+	
+	
+	<link rel="stylesheet" href="my-slider.css"/>
+<script src="ism-2.2.min.js"></script>
+
+</head>
+<body>
+<div class="ism-slider" data-transition_type="fade" data-play_type="loop" data-interval="10000" id="my-slider">
+  <ol>
+    <li>
+      <img src="https://via.placeholder.com/900x255/181715">
+    </li>
+    <li>
+      <img src="https://via.placeholder.com/900x255/9a9a9a/181715">
+    </li>
+    <li>
+      <img src="https://via.placeholder.com/900x255/111111/ededed">
+    </li>
+  </ol>
+</div>
+
+	
+</body>
+</html>

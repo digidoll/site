@@ -19,6 +19,8 @@ body {
 .wrapper {
 	position: relative;
 	width: 76%;
+	height: 100%;
+	background-color: #990000;
 	top: 0%;
 	margin: 0% auto 0px;
 }
@@ -31,19 +33,28 @@ header {
 	top: 0%;
 	left: 0px;
 	background: #ededed url("#") repeat repeat top left;
-	padding: 120px 0px 70px;
+	padding: 8% 0px;
 	margin:0px auto;
-}
 
 
-.card {
-	position: relative;
-	width: 50%;
-	left: 0%;
-	padding: 0px 0px;
-	margin: 0px auto;
+	color: #333;
+	text-shadow: 0px 1px 0px rgba(255,255,255,.5); /* 50% white from bottom */
+	font-family: 'Teko', sans-serif;
+	font-size: 70pt;
+	font-weight: 500;
+	line-height: 100px;
 	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: -5px;
 }
+
+
+#slr {
+	height: 50%;
+	background-color: #444;
+}
+
+
 
 	.name {
 		color: #333;
@@ -68,7 +79,7 @@ header {
 		letter-spacing: 2px;
 		line-height: 0px;
 		text-align: center;
-		margin: 30px auto 0px;
+		margin: 0px auto 0px;
 	}
 
 

@@ -10,7 +10,7 @@
   <h2> design </h2>
 </div>
 <div class="quote">
-  <p>In lacinia augue enim, nec porta velit dignissim et. Vestibulum rutrum non arcu elementum condimentum. Ut accumsan a risus sit amet dictum. Etiam id dictum arcu. Nam ullamcorper vel sapien non pulvinar. Suspendisse potenti. Cras mollis felis quis vehicula maximus. Sed id hendrerit quam. Integer vulputate, enim hendrerit mattis ullamcorper.</p>
+  <p>In lacinia augue enim, nec porta velit dignissim et. Vestibulum rutrum non arcu elementum condimentum. Ut accumsan a risus sit amet dictum. Etiam id dictum arcu. Nam ullamcorper vel sapien non pulvinar.</p>
   <h2> information </h2>
   <h3>● ● ●<h3>
     <h4> $400 || 20k </h4>
@@ -34,7 +34,7 @@
   <h2> management </h2>
 </div>
 <div class="quote">
-  <p>In lacinia augue enim, nec porta velit dignissim et. Vestibulum rutrum non arcu elementum condimentum. Ut accumsan a risus sit amet dictum. Etiam id dictum arcu. Nam ullamcorper vel sapien non pulvinar. Suspendisse potenti. Cras mollis felis quis vehicula maximus. Sed id hendrerit quam. Integer vulputate, enim hendrerit mattis ullamcorper.</p>
+  <p>In lacinia augue enim, nec porta velit dignissim et. Vestibulum rutrum non arcu elementum condimentum. Ut accumsan a risus sit amet dictum. Etiam id dictum arcu. Nam ullamcorper vel sapien non pulvinar. Suspendisse potenti. Cras mollis felis quis vehicula maximus.</p>
   <h2> information </h2>
   <h3>● ● ●<h3>
     <h4> $400 || 20k </h4>

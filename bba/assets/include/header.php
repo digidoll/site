@@ -6,11 +6,12 @@
 <meta content="width=device-width, initial-scale=1" name="viewport" />
 
 	<link rel="shortcut icon" type="image/x-icon" href="https://images.squarespace-cdn.com/content/v1/5d010b13cd0e5600015ee0dd/1571957034370-DC84DK5MOV8I191YC3WA/ke17ZwdGBToddI8pDm48kPRtNxltRnYK-g3zwAiCo2FZw-zPPgdn4jUwVcJE1ZvWhcwhEtWJXoshNdA9f1qD7Yd9JIcDlHYnKy8BqcTBsOV8oS3jbFru2TOlvSEXb1mwhm3u1KnGKo8XkLTM9Y9RCQ/favicon.ico?format=100w" />
-	<title>Welcome to Rabbitdearr</title>
+	<title>Pennsylvania Barber Guild</title>
 
 	<link rel="stylesheet" type="text/css" href="assets/css/theme.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/menu.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/faq.css">
 
 	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.12.0/css/all.css">
 
@@ -26,7 +27,10 @@
 <body>
 <div class="all">
 
+
+
 <header>
+
 	<div id="nav">
 		<a href="index.php">home</a>
 		<a href="join.php">join</a>
@@ -35,6 +39,23 @@
 		<a href="affiliates.php">affiliates</a>
 		<a href="index.html#footer">news</a>
 	</div>
+
+
+	<div class="button_container" id="toggle"><span class="top"></span><span class="middle"></span><span class="bottom"></span></div>
+	<div class="overlay" id="overlay">
+		<nav class="overlay-menu">
+			<ul>
+				<li><a href="index.php">home</a></li>
+				<li><a href="join.php">join</a></li>
+				<li><a href="events.php">events</a></li>
+				<li><a href="faq.php">faq</a></li>
+				<li><a href="affiliates.php">affiliates</a></li>
+				<li><a href="index.html#footer">news</a></li>
+			</ul>
+		</nav>
+	</div>
+
+
 
 	<div id="overlay"></div>
 		<div id="logo">

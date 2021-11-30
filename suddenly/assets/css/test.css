@@ -1,49 +1,126 @@
-.nav {
-  position:relative;
-	text-align: center;
-	width: 100%;
-	left:0%;
-	top:0px;
-	background-color: #000;
-	margin: 0px auto;
-	padding: 0px 0px;
-	z-index:999;
+.visible_item{
+display:none;
 }
 
-.nav a:link,
-.nav a:visited,
-.nav a:active {
-    display:inline-block;
-    width:100px;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 0.6rem;
-    font-weight: 400;
-    letter-spacing:2px;
-    text-align: center;
-    text-decoration: none;
-    text-transform: uppercase;
-    color:#f7f7f7;
-    margin: 0px 10px;
-    padding: 15px 0px;
-    -webkit-transition:all 1s ease;
-    -moz-transition:all 1s ease;
-    -o-transition:all 1s ease;
-    -ms-transition:all 1s ease;
-    transition:all 1s ease;
-  }
+/* ---- button ---- */
 
-#nav a:hover {
-font-size: 0.4rem;
-font-weight: 400;
-letter-spacing: 5px;
-color:#fff;
-background-color: transparent;
-cursor:help;
+.button {
+  display: inline-block;
+  font-family: 'roboto', sans-serif;
+  font-size: 6pt;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #f7f7f7;
+  background-color: #333;
+  border: none;
+  padding: 10px 32px;
+
+  border: none;
+  outline: none;
+  color: #f7f7f7;
+  background-color: #333;
+  padding: 12px 16px;
+  cursor: pointer;
 }
 
-  .nav-fixed {
-    position: fixed;
-    width: 76%;
-    left: 12%;
-    top: 0!important;
-  }
+.button:hover {
+background-color: #888;
+}
+
+.button:active,
+.button.is-checked {
+background-color: #555;
+}
+
+.button.is-checked {
+color: white;
+text-shadow: 0 -1px hsla(0, 0%, 0%, 0.8);
+}
+
+.button:active {
+box-shadow: inset 0 1px 10px hsla(0, 0%, 0%, 0.8);
+}
+
+/* ---- button-group ---- */
+
+.button-group:after {
+content: '';
+display: block;
+clear: both;
+}
+
+.button-group .button {
+float: left;
+border-radius: 0;
+margin-left: 0;
+margin-right: 1px;
+}
+
+.button-group .button:first-child { border-radius: 0.5em 0 0 0.5em; }
+.button-group .button:last-child { border-radius: 0 0.5em 0.5em 0; }
+
+/* ---- isotope ---- */
+
+.grid {
+width: 100%;
+margin: 20px auto;
+}
+
+/* clear fix */
+.grid:after {
+content: '';
+display: block;
+clear: both;
+}
+
+/* ---- .element-item ---- */
+
+.element-item {
+position: relative;
+
+width: 200px;
+height: 150px;
+margin: 0px auto;
+padding: 0px;
+}
+
+.element-item > * {
+margin: 0;
+padding: 0;
+}
+
+.element-item .name {
+position: absolute;
+
+left: 10px;
+top: 60px;
+text-transform: none;
+letter-spacing: 0;
+font-size: 12px;
+font-weight: normal;
+}
+
+.element-item .symbol {
+position: absolute;
+left: 10px;
+top: 0px;
+font-size: 42px;
+font-weight: bold;
+color: white;
+}
+
+.element-item .number {
+position: absolute;
+right: 8px;
+top: 5px;
+}
+
+.element-item .weight {
+position: absolute;
+left: 10px;
+top: 76px;
+font-size: 12px;
+}

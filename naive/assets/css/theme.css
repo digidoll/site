@@ -14,7 +14,7 @@ body {
 	font-size:10px;
 	font-weight:400;
 	color:#0b0b0b;
-	background-color: #222;
+	background-color: #111;
 }
 
 .all {
@@ -34,7 +34,7 @@ header {
 	top:10%;
 	left:0;
 	text-align: center;
-	background-color:#111111;
+	background-color:#090909;
 	background-image: url("/site/area51/assets/img/banner.png");
 	background-repeat: repeat;
 	margin: 0px auto;
@@ -117,7 +117,7 @@ header {
 	width: 100%;
 	left:0%;
 	top:0px;
-	background-color: #111;
+	background-color: #000;
 	border-top: 1px solid #1b1b1b;
 	margin: 0px auto;
 	padding: 0px 0px;
@@ -240,6 +240,7 @@ header {
 
 		#outs i {
 			font-size: 10pt;
+			font-weight: normal;
 			line-height: 14px;
 			color: #f7f7f7;
 			padding: 20px 0px;
