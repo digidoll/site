@@ -7,8 +7,11 @@
 
 
 <div id="content">
-	<h1> biography
-	<span> about me </span></h1>
+	<div id="box" class="brn"> <h1>free consultation <span> fdsafdsaf </span> </h1> </div>
+  <div id="box" class="gry"> <h1>about us <span> fdsafdsaf </span> </h1> </div>
+  <div id="box" class="blu"> <h1>follow us <span> fdsafdsaf </span> </h1> </div>
+
+  <h1>Welcome</h1>
 
 		<p><p><b>bold</b> <i>italic</i> <u>underline</u> <a href="#">link</a> "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ac feugiat velit, varius malesuada dui. Cras dictum eros sit amet consequat vulputate. Quisque purus turpis, hendrerit non pharetra vitae, tempor tempor orci. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce placerat, turpis non aliquet sollicitudin, risus mi tristique felis, id scelerisque turpis lorem quis magna. Mauris convallis sapien diam, placerat tempor tortor vehicula at. Nunc ante erat, accumsan id dolor vitae, efficitur sollicitudin libero. Integer vel congue odio. Integer imperdiet nisl quis neque congue mattis posuere vitae sapien.</p>
 

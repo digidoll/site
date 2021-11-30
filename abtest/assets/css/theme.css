@@ -10,7 +10,7 @@ body {
 	font-size:10px;
 	font-weight:400;
 	color:#0b0b0b;
-	background-color: #111;
+	background-color: #d0d0d0;
 	margin: 0px;
 }
 
@@ -23,7 +23,9 @@ body {
   margin: 0px auto 0px;
 	min-height: 1100px;
 	background-color: #e7e7e7!important;
+	filter: drop-shadow(0px 0px 4px #7d7d7f);
 }
+
 
 header {
 	position: relative;
@@ -32,25 +34,28 @@ clear:both;
 	left:0;
 	text-align: center;
 	background-color:#41382f;
+	background: linear-gradient(110deg, #41382f 60%, #493f36 60%);
 	background-repeat: repeat;
 	margin: 0px auto;
-	z-index:999;
+	z-index:9;
 }
 
 header h1 {
 	color: #b1aca8;
+	text-shadow: 2px 2px #39322b;
 	font-size: 40pt;
 	text-align: center;
-	padding: 13% 0px 0px;
+	padding: 10% 0px 0px;
 }
 
 header h2 {
+	font-size: 5pt;
 	text-align: center;
 	padding: 50px 0px 0px;
 }
 
 header button {
-	width: calc(60% / 3);
+	width: calc(60% / 6);
 	color: #b1aca8;
 	background-color: #2a251f;
 	border: 2px solid #37322e;
@@ -74,6 +79,7 @@ float: right;
 	background-color: #fff;
 	padding: 0px 0px 0px;
 	margin: 0% auto;
+	z-index: 999;
 }
 
 	#home{
@@ -197,7 +203,7 @@ z-index: 999;
 			bottom: 0%;
 			left: 0%;
 width: 100%;
-			background-color: #545045;
+			background-color: #38332f;
 			margin: 0px auto;
 			padding: 0px 0px 0px;
 			z-index: 999;
@@ -252,21 +258,21 @@ width: 100%;
 
 
 			nav {
-			float: right;
 				bottom: 0%;
 				left: 0%;
 	width: 100%;
 				background-color: #f0f0f0;
 				margin: 0px auto;
 				padding: 0px 0px 0px;
+				text-align: center;
 				z-index: 999;
 			}
 
 			nav ul {
-			float: right;
 				display: inline-block;
 					background-color: transparent;
 				list-style: none;
+				text-align: center;
 				margin:0px;
 				padding: 0px;
 
@@ -274,7 +280,7 @@ width: 100%;
 
 			nav ul li {
 					display: inline;
-					text-align: right;
+
 					background-color: transparent;
 			}
 
@@ -311,11 +317,12 @@ width: 100%;
 
 
 .colorbar {
-	width: 80%;
+	width: 60%;
 	height: 20px;
-margin: 0px auto 20px;
+margin: 0px auto 0px;
 padding: 20px;
-background-color: #4b423b;
+background-color: #3b342c;
+box-shadow: 0 0 5px 0px #3b342c;
 text-align: center!important;
 }
 
@@ -325,7 +332,7 @@ text-align: center!important;
   height: 20px;
   background-color: #3f382e;
 	border: 1px solid #afaca7;
-	margin: 0px;
+	margin: 0px!important;
 }
 
 .div2 {

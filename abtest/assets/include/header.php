@@ -28,8 +28,6 @@
 <body>
 <div class="all">
 
-
-
 	<menu> <div id="brand"> Brand </div>
 		<ul>
 		<li><a href="#">index</a></li>
@@ -46,6 +44,7 @@
 		<li><a href="#">biography</a></li>
 		<li><a href="#">link</a></li>
 		<li><a href="#">link</a></li>
+		<li><a href="#">link</a></li>
 		<ul>
 	</nav>
 
@@ -58,16 +57,10 @@
 
 
 <div class="colorbar">
-  <div class="div1">
-
-  </div>
-  <div class="div2">
-
-  </div>
-  <div class="div3">
-
-  </div>
-  <div class="div4">
+  <div class="div1"> </div
+	><div class="div2"> </div
+	><div class="div3"> </div
+	><div class="div4">
 
   </div>
 </div>
