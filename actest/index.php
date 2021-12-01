@@ -87,36 +87,6 @@
     </div>
   </div>
 </div>
-<!--
-<div class="updts">
-<div id="Cnt">
-      <h6>10 <span>25</span></h6>
-      <div class="speech-bubble">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ac ipsum at mauris posuere imperdiet ut in purus. Sed lobortis ligula vel nibh feugiat commodo. Aliquam velit ipsum, suscipit at sagittis id, commodo at lacus.</div>
-</div>
-
-<div id="Cnt">
-      <h6>10 <span>25</span></h6>
-      <div class="speech-bubble">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ac ipsum at mauris posuere imperdiet ut in purus. Sed lobortis ligula vel nibh feugiat commodo. Aliquam velit ipsum, suscipit at sagittis id, commodo at lacus.</div>
-</div>
-
-<div id="Cnt">
-      <h6>10 <span>25</span></h6>
-      <div class="speech-bubble">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ac ipsum at mauris posuere imperdiet ut in purus. Sed lobortis ligula vel nibh feugiat commodo. Aliquam velit ipsum, suscipit at sagittis id, commodo at lacus.</div>
-</div>
-
-<div id="Cnt">
-      <h6>10 <span>25</span></h6>
-      <div class="speech-bubble">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ac ipsum at mauris posuere imperdiet ut in purus. Sed lobortis ligula vel nibh feugiat commodo. Aliquam velit ipsum, suscipit at sagittis id, commodo at lacus.</div>
-</div>
-
-<div id="Cnt">
-      <h6>10 <span>25</span></h6>
-      <div class="speech-bubble">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ac ipsum at mauris posuere imperdiet ut in purus. Sed lobortis ligula vel nibh feugiat commodo. Aliquam velit ipsum, suscipit at sagittis id, commodo at lacus.</div>
-</div>
-</div>
--->
-
-
 
 
 
@@ -127,7 +97,7 @@
     <input type="text" value="<a href=&quot;http://www.rabbitdearr.com&quot; target=&quot;_blank&quot;><img src=&quot;https://image.ibb.co/cejZf6/Banner.png&quot;></a>" readonly="" onclick="javascript:this.focus();this.select();"></center>
   </div>
 
-  <div class="customers">
+  <div class="updates">
     <iframe src="updates.html" width="100%" height="100%" border="0" marginwidth="0" marginheight="0" frameborder="0" allowtransparency="true"></iframe>
   </div>
 

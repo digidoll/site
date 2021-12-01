@@ -262,8 +262,12 @@ h2 {
 	}
 
 .brn {
-	background-color: #241f19!important;
+	background-color: #291b04!important;
 	background-image: url("https://transparenttextures.com/patterns/flowers.png");
+}
+
+.brn h1 {
+	background-color: rgba(36, 31, 25, 0.6);
 }
 
 .gry {
@@ -271,15 +275,23 @@ h2 {
 	background-image: url("https://transparenttextures.com/patterns/triangles.png");
 }
 
+.gry h1 {
+	background-color: rgba(119, 119, 119, 0.6);
+}
+
 .blu {
 	background-color: #688781!important;
 	background-image: url("https://transparenttextures.com/patterns/arches.png");
 }
 
+.blu h1 {
+	background-color: rgba(124, 163, 155, 0.6);
+}
+
 #box h1 {
 	text-align: center;
 	color: #f0f0f0;
-	background-color: rgba(203, 203, 203, 0.6);
+
 	padding: 30px 0px;
 }
 
